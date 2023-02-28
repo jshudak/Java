@@ -1,0 +1,468 @@
+Note: prog10/OpenHashTable.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+put Brad 46 hash index 2 returns null
+--------------------------------
+0: null
+1: null
+2: Brad 46
+3: null
+4: null
+
+put Hal 10 hash index 2 returns null
+--------------------------------
+0: null
+1: null
+2: Brad 46
+3: Hal 10
+4: null
+
+put Brad 60 hash index 2 returns 60
+--------------------------------
+0: null
+1: null
+2: Brad 60
+3: Hal 10
+4: null
+
+put Hal 24 hash index 2 returns 24
+--------------------------------
+0: null
+1: null
+2: Brad 60
+3: Hal 24
+4: null
+
+put Kyle 6 hash index 0 returns null
+--------------------------------
+0: Kyle 6
+1: null
+2: Brad 60
+3: Hal 24
+4: null
+
+put Lisa 43 hash index 3 returns null
+--------------------------------
+0: null
+1: null
+2: null
+3: Brad 60
+4: Hal 24
+5: null
+6: null
+7: Kyle 6
+8: null
+9: null
+10: null
+11: Lisa 43
+12: null
+13: null
+14: null
+15: null
+
+put Lynne 43 hash index 8 returns null
+--------------------------------
+0: null
+1: null
+2: null
+3: Brad 60
+4: Hal 24
+5: null
+6: null
+7: Kyle 6
+8: Lynne 43
+9: null
+10: null
+11: Lisa 43
+12: null
+13: null
+14: null
+15: null
+
+put Victor 46 hash index 7 returns null
+--------------------------------
+0: null
+1: null
+2: null
+3: Brad 60
+4: Hal 24
+5: null
+6: null
+7: Kyle 6
+8: Lynne 43
+9: Victor 46
+10: null
+11: Lisa 43
+12: null
+13: null
+14: null
+15: null
+
+put Zoe 6 hash index 0 returns null
+--------------------------------
+0: Zoe 6
+1: null
+2: null
+3: Brad 60
+4: Hal 24
+5: null
+6: null
+7: Kyle 6
+8: Lynne 43
+9: Victor 46
+10: null
+11: Lisa 43
+12: null
+13: null
+14: null
+15: null
+
+put Zoran 76 hash index 10 returns null
+--------------------------------
+0: Zoe 6
+1: null
+2: null
+3: Brad 60
+4: Hal 24
+5: null
+6: null
+7: Kyle 6
+8: Lynne 43
+9: Victor 46
+10: Zoran 76
+11: Lisa 43
+12: null
+13: null
+14: null
+15: null
+
+
+remove Zoe returns 6
+--------------------------------
+0: DELETED
+1: null
+2: null
+3: Brad 60
+4: Hal 24
+5: null
+6: null
+7: Kyle 6
+8: Lynne 43
+9: Victor 46
+10: Zoran 76
+11: Lisa 43
+12: null
+13: null
+14: null
+15: null
+
+remove Kyle returns 6
+--------------------------------
+0: DELETED
+1: null
+2: null
+3: Brad 60
+4: Hal 24
+5: null
+6: null
+7: DELETED
+8: Lynne 43
+9: Victor 46
+10: Zoran 76
+11: Lisa 43
+12: null
+13: null
+14: null
+15: null
+
+remove Brad returns 60
+--------------------------------
+0: DELETED
+1: null
+2: null
+3: DELETED
+4: Hal 24
+5: null
+6: null
+7: DELETED
+8: Lynne 43
+9: Victor 46
+10: Zoran 76
+11: Lisa 43
+12: null
+13: null
+14: null
+15: null
+
+remove Zoran returns 76
+--------------------------------
+0: DELETED
+1: null
+2: null
+3: DELETED
+4: Hal 24
+5: null
+6: null
+7: DELETED
+8: Lynne 43
+9: Victor 46
+10: DELETED
+11: Lisa 43
+12: null
+13: null
+14: null
+15: null
+
+remove Lisa returns 43
+--------------------------------
+0: DELETED
+1: null
+2: null
+3: DELETED
+4: Hal 24
+5: null
+6: null
+7: DELETED
+8: Lynne 43
+9: Victor 46
+10: DELETED
+11: DELETED
+12: null
+13: null
+14: null
+15: null
+
+remove Hal returns 24
+--------------------------------
+0: DELETED
+1: null
+2: null
+3: DELETED
+4: DELETED
+5: null
+6: null
+7: DELETED
+8: Lynne 43
+9: Victor 46
+10: DELETED
+11: DELETED
+12: null
+13: null
+14: null
+15: null
+
+remove Lynne returns 43
+--------------------------------
+0: DELETED
+1: null
+2: null
+3: DELETED
+4: DELETED
+5: null
+6: null
+7: DELETED
+8: DELETED
+9: Victor 46
+10: DELETED
+11: DELETED
+12: null
+13: null
+14: null
+15: null
+
+put Ant 3 hash index 7 returns null
+--------------------------------
+0: DELETED
+1: null
+2: null
+3: DELETED
+4: DELETED
+5: null
+6: null
+7: Ant 3
+8: DELETED
+9: Victor 46
+10: DELETED
+11: DELETED
+12: null
+13: null
+14: null
+15: null
+
+remove Ant returns 3
+--------------------------------
+0: DELETED
+1: null
+2: null
+3: DELETED
+4: DELETED
+5: null
+6: null
+7: DELETED
+8: DELETED
+9: Victor 46
+10: DELETED
+11: DELETED
+12: null
+13: null
+14: null
+15: null
+
+put Bug 1 hash index 4 returns null
+--------------------------------
+0: DELETED
+1: null
+2: null
+3: DELETED
+4: Bug 1
+5: null
+6: null
+7: DELETED
+8: DELETED
+9: Victor 46
+10: DELETED
+11: DELETED
+12: null
+13: null
+14: null
+15: null
+
+remove Bug returns 1
+--------------------------------
+0: DELETED
+1: null
+2: null
+3: DELETED
+4: DELETED
+5: null
+6: null
+7: DELETED
+8: DELETED
+9: Victor 46
+10: DELETED
+11: DELETED
+12: null
+13: null
+14: null
+15: null
+
+put Cat 4 hash index 6 returns null
+--------------------------------
+0: null
+1: null
+2: null
+3: null
+4: null
+5: null
+6: Cat 4
+7: Victor 46
+
+remove Cat returns 4
+--------------------------------
+0: null
+1: null
+2: null
+3: null
+4: null
+5: null
+6: DELETED
+7: Victor 46
+
+put Dog 1 hash index 4 returns null
+--------------------------------
+0: null
+1: null
+2: null
+3: null
+4: Dog 1
+5: null
+6: DELETED
+7: Victor 46
+
+remove Dog returns 1
+--------------------------------
+0: null
+1: null
+2: null
+3: null
+4: DELETED
+5: null
+6: DELETED
+7: Victor 46
+
+put Eel 5 hash index 4 returns null
+--------------------------------
+0: null
+1: null
+2: null
+3: null
+4: Eel 5
+5: null
+6: DELETED
+7: Victor 46
+
+remove Eel returns 5
+--------------------------------
+0: null
+1: null
+2: null
+3: null
+4: DELETED
+5: null
+6: DELETED
+7: Victor 46
+
+put Fox 9 hash index 7 returns null
+--------------------------------
+0: Fox 9
+1: null
+2: null
+3: null
+4: DELETED
+5: null
+6: DELETED
+7: Victor 46
+
+remove Fox returns 9
+--------------------------------
+0: DELETED
+1: null
+2: null
+3: null
+4: DELETED
+5: null
+6: DELETED
+7: Victor 46
+
+put Gnu 2 hash index 6 returns null
+--------------------------------
+0: DELETED
+1: null
+2: null
+3: null
+4: DELETED
+5: null
+6: Gnu 2
+7: Victor 46
+
+remove Gnu returns 2
+--------------------------------
+0: DELETED
+1: null
+2: null
+3: null
+4: DELETED
+5: null
+6: DELETED
+7: Victor 46
+
+put Hen 2 hash index 1 returns null
+--------------------------------
+0: null
+1: Hen 2
+2: null
+3: null
+4: null
+5: null
+6: null
+7: Victor 46
+

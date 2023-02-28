@@ -1,0 +1,294 @@
+QUESTION: Can we create a map that is as fast as a hash table but
+ORDERED, so Milenkovic is near to Milenkovich?  (Also, not expected
+time, though there is nothing wrong with that.)
+
+ANSWER: YES, if the keys are STRINGS.  When are keys not strings?  You
+have two keys at UM, your C-number and your 5-number.  Both of them
+fit in an int.  The following will not work for int keys.  But who
+cares?  There isn't any good reason to want to find students who
+C-number is close to yours.  We had a question on the last quiz for a
+key that is a first and last name.  You would want to keep that
+sorted, but you could turn it into a single string using a special
+character "Milenkovic:Victor", assuming names don't have : in them.
+(They might have a comma "Wendell Jones, III".)
+
+The data structure is called a TRIE, which is short for, reTRIEval,
+but it is pronounced "TRY" to distinguish it from TREE.  Specifically,
+a RADIX TRIE.
+
+Let's put("bobcat", 1) and put("catdog", 2):
+
+bobcat bobcat 1
+catdog catdog 2
+
+So far it looks like a sorted list (we will use an array) with
+redundant keys.  Isn't this going to have O(log n) get and O(n) put?
+Both worse than hash table?
+
+Let's put("bobby", 3)
+
+bob null null [pointer to {by,cat} sublist]
+   by bobby 3
+   cat bobcat 1
+catdog catdog 2
+
+What happened?  Since bobby and bobcat both start with "bob", we will
+have a single entry in the top level list
+
+bob null null *
+catdog catdog 2
+
+for "bob" and a sublist *
+
+by bobby 3
+cat bobcat 1
+
+with entries "by" and "cat".  This sublist is stored in the bob
+entry's array variable.
+
+How do we do a get?  Let's get("bobcat"):
+
+bob null null *
+catdog catdog 2
+
+We call a recursive find, with find(key="bobcat", iKey=0, array),
+where key="bobcat", iKey=0, and array contains the top level list.  If
+there is no entry starting with key.charAt(iKey)='b', then return
+null.
+
+Otherwise "bob" matches the first character.  Increment iKey and set
+iSub=1.  Keep incrementing as long as it matches and both stay in
+range.
+
+bobcat	bob
+^	^
+
+bobcat	bob
+ ^	 ^
+
+bobcat	bob
+  ^	  ^
+
+bobcat	bob
+   ^	   ^
+  iKey    iSub
+
+In this case, we stop because iSub=3 is out of range, but iKey=3 is
+not. That tells us that we have matched the entire (sub)key "bob" and
+we should recurse on bob's sublist *
+
+by bobby 3
+cat bobcat 1
+
+The recursion is find(key="bobcat", iKey=3, entry.array), where entry
+is bob's entry and iKey now equals 3. Since iKey=3, that means start
+at the 'c' in "bobcat" so it is as if the key is "cat".
+
+Once again, the first character of "cat" matches key.charAt(iKey)='c',
+so we do the same thing: increment iKey, set iSub=1, and keep
+matching.
+
+bobcat	cat
+   ^	^
+
+bobcat	cat
+    ^	 ^
+
+bobcat	cat
+     ^	  ^
+
+bobcat	cat
+      ^	   ^
+     iKey iSub
+
+This time both iKey=6 and iSub=3 go out of range at the same time.
+This tells us that we have the correct Entry with key="bobcat" and
+value=1, and we return it.
+
+Each Entry has a key and value, as usual, plus a subkey called sub and
+a sublist called array.
+
+The Entry for "bob" has sub="bob" but key=null because there really is
+no entry for "bob".  It's just there because "bobby" and "bobcat"
+share "bob" in common.  That's why you see "bob null null".  If you
+tried to look up "bob", you would get this entry, but you would know
+that "bob" is not really there because the key is null.
+
+
+RUNNING TIME?
+
+There can be at most one entry in each list for each letter of the
+alphabet.  If we had two entries with the same first letter, they
+would share a prefix, and we would create a sublist.  There are only
+26 letters in the alphabet.  Even if we allow upper case and other
+characters, it still is a constant.
+
+So looking for a first letter in a list is O(1) even if we use linear
+search.  To make it really fast, we can use an array of length 26
+regardless, putting null for unused letters.  In that case finding a
+letter is truly unit time.  If the key starts with 'j', we go to index
+'j'-'a'=9.  That might waste space, but we could just do it for the
+higher levels in the tree in a real application.
+
+Still, how can we say it is as fast as a hash table?  It's got
+multiple levels!
+
+The thing is that to hash a key takes O(L) for L=key.length(), not O(1).
+
+Getting the entry with a starting letter in a Trie takes O(1).
+Otherwise, each time we compare two characters, we increment iKey.
+Each time you go into a sublist, we increment iKey by at least 1.  So
+the number of array entries we access and the number of comparisons we
+make is O(L).  It really does have the "same" O() as hashing!
+
+
+EXTERNAL TRIE
+
+If we keep each list in a disk block, then we can look up a word in
+O(L) disk seeks.
+
+Here is where we really stretch the "same" O().  Hashing a string
+takes L NANOseconds.  Looking up in an external trie takes L
+MILLIseconds.  What's a factor of a million between friends?
+
+More importantly, if we are looking up a lot of strings with the same
+prefix, then we don't have to start over, so it really is close to
+O(1).  When would we do that?
+
+http://www.cs.miami.edu/~vjm/csc220/prog11/lab.txt
+http://www.cs.miami.edu/~vjm/csc220/prog11/output.txt
+
+URLs on the same web page have long common prefixes.  They are stored
+under 'l' and 'o' (indices 11 and 14) of the same disk block.  So long
+as we are just considering files for this week, we stay in the same
+disk block so access is truly O(1) and quick.
+
+
+IMPLEMENTING toString
+
+How to "print out" (create a String from) a Trie?
+
+Call a recursive toString(array, indent) with array the top level list
+and indent=0.
+
+For each entry in the list, "print out" its information indented by indent:
+entry.sub, entry.key, entry.value.  Recurse on entry.array.
+What value of indent for the recursive call?  (Look at my formatting.)
+
+
+IMPLEMENTING put
+
+put(key, value) makes a recursive call to put(key, iKey, value, array)
+for iKey=0 and list the top level list.  Let's put("bobby", 2) when
+list is
+
+bobcat bobcat 1
+catdog catdog 2
+
+This time, the entry starting with 'b' is bobcat, and we stop
+incrementing iKey and iSub at 3 because key.charAt(3)='b' does not
+match entry.sub.charAt(3)='c'.
+
+bobby	bobcat
+^	^
+
+bobby	bobcat
+ ^	 ^
+
+bobby	bobcat
+  ^	  ^
+
+bobby	bobcat
+   ^	   ^
+  iKey    iSub
+
+We split bobcat into sub0=bob and sub1=cat.
+We create a new Entry with sub=sub1="cat", key="bobcat", and value=1.
+Set the bobcat entry's sub from "bobcat" to sub0="bob" and set its key and
+value to null.
+Add the new Entry to the original entry's array (at index 'c'-'a'=2).
+
+bob null null
+   cat bobcat 1
+catdog catdog 2
+
+Now recurse put(key, iKey, value, entry.array).
+
+This time the list only has "cat" and no string starting with
+key.charAt(3)='b'.  So we just insert a new entry alphabetically at
+index 'b'-'a'=1.
+
+bob null null
+   by bobby 3
+   cat bobcat 1
+catdog catdog 2
+
+Just to remind you, there are a lot of null entries I am not showing:
+
+null
+bob null null
+   null
+   by bobby 3
+   cat bobcat 1
+   null
+   null
+   ,,,
+catdog catdog 2
+null
+null
+,,,
+
+If we put("bobcalf", 4), then iSub on "bob" reaches 3, so we just
+recurse on bob's sublist without modifying it.  The recursion does the
+equivalent thing to cat that bobby did to bobcat above:
+
+bob null null
+   by bobby 3
+   ca
+     lf bobcalf 4
+     t bobcat 1
+catdog catdog 2
+
+Suppose we put("bob", 5)?  Both iKey and iSub reach the ends of their
+strings at the same time.  Since entry.key==null, that tells us that
+bob is a placeholder, so we should set its key too:
+
+bob bob 5
+   by bobby 3
+   ca
+     lf bobcalf 4
+     t bobcat 1
+catdog catdog 2
+
+A second put on "bob" would only change its value.
+
+Finally, let's put("cat", 6).  iKey "runs out" before iSub, so we
+create the subentry and sublist as before
+
+bob bob 5
+   by bobby 3
+   ca
+     lf bobcalf 4
+     t bobcat 1
+cat null null
+   dog catdog 2
+
+But we don't recurse.  We just set cat's key and value:
+
+bob bob 5
+   by bobby 3
+   ca
+     lf bobcalf 4
+     t bobcat 1
+cat cat 6
+   dog catdog 2
+
+
+
+IMPLEMENTING entryIterator
+
+To iterator over the Trie, we just convert it to a List and use its
+iterator.  This uses the same trick as toString, only it appends
+entries to a List<Map.Entry<K,V>> instead of appending their strings
+to a giant string.
+

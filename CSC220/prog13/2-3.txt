@@ -1,0 +1,16 @@
+137(edu.miami.cs.www/home/vjm/csc220/google2/90.html)12
+148(edu.miami.cs.www/home/vjm/csc220/google2/78.html)8
+153(edu.miami.cs.www/home/vjm/csc220/google2/66.html)8
+160(edu.miami.cs.www/home/vjm/csc220/google2/54.html)8
+170(edu.miami.cs.www/home/vjm/csc220/google2/42.html)8
+171(edu.miami.cs.www/home/vjm/csc220/google2/84.html)12
+181(edu.miami.cs.www/home/vjm/csc220/google2/30.html)8
+182(edu.miami.cs.www/home/vjm/csc220/google2/60.html)12
+200(edu.miami.cs.www/home/vjm/csc220/google2/18.html)6
+204(edu.miami.cs.www/home/vjm/csc220/google2/36.html)9
+208(edu.miami.cs.www/home/vjm/csc220/google2/72.html)12
+226(edu.miami.cs.www/home/vjm/csc220/google2/6.html)4
+227(edu.miami.cs.www/home/vjm/csc220/google2/12.html)6
+231(edu.miami.cs.www/home/vjm/csc220/google2/24.html)8
+232(edu.miami.cs.www/home/vjm/csc220/google2/48.html)10
+233(edu.miami.cs.www/home/vjm/csc220/google2/96.html)12

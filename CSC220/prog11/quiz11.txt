@@ -1,0 +1,149 @@
+FINISHED 10/10
+
+Questions 0-5 refer to the following radix trie INDEPENDENT of any other question.
+DO NOT show the result of TWO puts on this trie, like bob AND bobsled.
+
+bob null null
+   by bobby 0
+   ca null null
+     lf bobcalf 1
+     t bobcat 2
+catdog catdog 3
+
+
+0. Each line is a entry in the radix trie, displayed in order entry.sub, entry.key, and
+   entry.value.  The indentation indicates sublist: "lf" and "t" are entry.list for
+   the entry with entry.sub="ca".
+
+   The public toString() calls recursive private toString(list, indent), where
+   indent is the number of spaces to indent.  When printing out entry.list for the
+   entry with entry.sub="ca", what is the recursive call?
+
+
+	toString(entry.array, indent+entry.sub.length());
+
+
+
+1. What is the result of put("apple", 4)?
+
+
+
+
+apple apple 4
+bob null null
+   by bobby 0
+   ca null null
+     lf bobcalf 1
+     t bobcat 2
+catdog catdog 3
+
+
+
+
+
+
+
+2. put("bob", 5)?				
+
+
+bob bob 5
+   by bobby 0
+   ca null null
+     lf bobcalf 1
+     t bobcat 2
+catdog catdog 3
+
+
+3. put("bobsled", 6)?
+
+
+
+bob null null
+   by bobby 0
+   ca null null
+     lf bobcalf 1
+     t bobcat 2
+   sled bobsled 6
+catdog catdog 3
+
+
+
+4. put("cat", 7)?				
+
+bob null null
+   by bobby 0
+   ca null null
+     lf bobcalf 1
+     t bobcat 2
+cat cat 7
+   dog catdog 3
+
+
+
+
+
+
+
+5. put("bottle", 8)?
+
+
+bo null null
+  b null null
+   by bobby 0
+   ca null null
+     lf bobcalf 1
+     t bobcat 2
+   ttle bottle 8
+catdog catdog 3
+
+
+
+
+
+
+
+
+
+
+
+6. Each entry has an array.  Does inserting in this array cost O(n)?  Why or why not?
+
+
+
+
+No because finding the intial array is a time of O(26), which simplifies down to O(1).
+There is no loop dependant on a string's length or an unknown number of intial entries.
+
+
+
+7. In what way does get or put of a radix trie have the SAME O() as a hash table?
+
+
+
+Yes because be need to constantly compare two characters (iSub and iKey) which occurs in
+a loop that runs n times, making the runtime O(n).
+
+
+
+8. How might finding or adding a group of strings with a common prefix to a radix
+   tree be made faster than finding or adding each one individually?
+
+
+
+By forcing similar strings to be next to each other, they will be stored closer to each
+other on disk space / server, which helps on the internet and with Big Data.
+Also, we know immediately that 'Jefe' isnt stored once we reach 'Jeff' because it
+would have occured before we found 'Jeff' rather than needing to check
+every single string we have stored that are randomly placed.
+
+
+
+
+
+
+9. Explain why Google might often deal with groups of strings with a common prefix.
+
+
+Most websites have suffixes appended to a common prefix, so they have
+NBC.com as a prefix with thousands of suffixes appended routing to their various articles.
+

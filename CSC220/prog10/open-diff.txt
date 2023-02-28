@@ -1,0 +1,5 @@
+0a1,2
+> Note: prog10/OpenHashTable.java uses unchecked or unsafe operations.
+> Note: Recompile with -Xlint:unchecked for details.
+
+SCORE 20/20

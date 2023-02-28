@@ -1,0 +1,136 @@
+FINISHED 9.5/10
+0. Give a Java expression in terms of the integers 31, 'c', 'a', and 't' for the
+   hash code of the String "cat".  Don't use ^ or pow.
+
+	c*31*31   +   a*31   +   t
+
+
+1. Write a method which calculates the hash code of a String using a prime p
+   other than 31.  Don't use ^ or pow.
+
+	int hashCode (String s, int p) {
+	
+	int hashedInt = 0;
+
+	for(int i = 0; i < s.length(); i++) {
+		char letters = s.charAt(i);
+		int letToInt = letters;
+
+		hashedInt = letToInt + hashedInt*p	
+
+	}
+
+	return hashedInt;
+
+	}
+
+2. Write the method that calculates the hash index for a String s for a hash
+   table of length m.  Use the default hashCode method for String.
+
+	int hashIndex (String s, int m) {
+		int hashedCode = s.hashCode();
+		int newIndex = hashedCode % m;
+
+		if (newIndex < 0)
+		index += m;
+		return index;
+	}
+
+
+
+
+
+
+
+3. If n=m-1 items are stored in a chained hash table of length m, what is the
+   expected O() time to determine that an item with key "Victor" is *not* in the
+   table?  What is the worst O() time?
+
+	Expected: O(1)
+	Worst: o(n)
+
+
+4. What is the answer for an open addressed hash table?  Assume all unused
+   locations are null (no "traffic cones").
+
+	Expected: O(1)	-1/2 because we were looking for *not*
+	Worst: O(n)
+
+
+5. An open addressed hash table contains the following keys (data not shown).
+   find(key) returns the index of the key or where it should be inserted if it is
+   not there.  DELETED is the "traffic cone".  hashIndex("pup")==7 and
+   hashIndex("nit")==5.  What are find("pup") and find("nit")?
+
+[0] "cat", [1] "dog", [2] null, [3] "rat", [4] null, [5] "ant", [6] DELETED, [7] "bug"
+
+	find("pup") returns 2
+	fnid("nit") returns 6
+
+
+6. If hashIndex("dog")=6, what is find("dog")?  What would it be if someone
+   incorrectly removed "cat" by setting table[0]=null?
+
+
+	find("dog") returns 1
+	
+	If... find("dog") returns 6
+
+
+
+7. The following Name class will be the key for either a TreeMap or HashMap:
+
+     	public class Name implements Comparable<Name> {
+	    private String first, last;
+
+            public Name (String first, String last) {
+		this.first = first;
+		this.last = last;
+	    }
+
+   Implement an equals method for Name using the standard rule that two people
+   have the same name if they have the same first name and the same last name.
+   ****DO NOT CREATE ANY NEW STRINGS IN YOUR ANSWERS TO 7, 8, and 9.****
+
+            public boolean equals (Object o) {
+		Name that = (Name) o;
+		boolean firstEqFirst = this.first.equals(that.first);
+		boolean lastEqLast = this.last.equals(that.last);
+                // ONE LINE:
+
+		return (firstEqFirst && lastEqLast);
+
+
+
+
+
+
+
+8. Implement the compareTo method.  This should correspond to the standard way
+   to alphabetize people's names:  John Jones < Jane Smith < John Smith.
+
+            public int compareTo (Name that) {
+		int firstCmpFirst = this.first.compareTo(that.first);
+		int lastCmpLast = this.last.compareTo(that.last);
+
+                if ( lastCmpLast != 0 )
+
+                    return  lastCmpLast;
+
+                else
+
+                    return  FirstCmpFirst;
+
+
+
+
+
+9. Implement hashCode.  It should combine the hash code of the first and last
+   name.  People with names ``Bernard Frank'' and ``Frank Bernard'' should not
+   hash to the same value.  (Hint:  why isn't "BF".hashCode() == "FB".hashCode()?)
+
+            public int hashCode () {
+		int firstCode = this.first.hashCode();
+		int lastCode = this.last.hashCode();
+		// ONE LINE:
+		return firstCode - lastCode;

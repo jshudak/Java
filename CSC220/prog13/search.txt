@@ -1,0 +1,110 @@
+Note: ./prog13/Noogle.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+{edu.miami.cs.www/home/vjm/csc220/google2/1.html=128, edu.miami.cs.www/home/vjm/csc220/google2/10.html=221, edu.miami.cs.www/home/vjm/csc220/google2/11.html=113, edu.miami.cs.www/home/vjm/csc220/google2/12.html=227, edu.miami.cs.www/home/vjm/csc220/google2/13.html=110, edu.miami.cs.www/home/vjm/csc220/google2/14.html=211, edu.miami.cs.www/home/vjm/csc220/google2/15.html=106, edu.miami.cs.www/home/vjm/csc220/google2/16.html=244, edu.miami.cs.www/home/vjm/csc220/google2/17.html=104, edu.miami.cs.www/home/vjm/csc220/google2/18.html=200, edu.miami.cs.www/home/vjm/csc220/google2/19.html=101, edu.miami.cs.www/home/vjm/csc220/google2/2.html=235, edu.miami.cs.www/home/vjm/csc220/google2/20.html=222, edu.miami.cs.www/home/vjm/csc220/google2/21.html=97, edu.miami.cs.www/home/vjm/csc220/google2/22.html=191, edu.miami.cs.www/home/vjm/csc220/google2/23.html=93, edu.miami.cs.www/home/vjm/csc220/google2/24.html=231, edu.miami.cs.www/home/vjm/csc220/google2/25.html=89, edu.miami.cs.www/home/vjm/csc220/google2/26.html=185, edu.miami.cs.www/home/vjm/csc220/google2/27.html=88, edu.miami.cs.www/home/vjm/csc220/google2/28.html=215, edu.miami.cs.www/home/vjm/csc220/google2/29.html=86, edu.miami.cs.www/home/vjm/csc220/google2/3.html=127, edu.miami.cs.www/home/vjm/csc220/google2/30.html=181, edu.miami.cs.www/home/vjm/csc220/google2/31.html=84, edu.miami.cs.www/home/vjm/csc220/google2/32.html=248, edu.miami.cs.www/home/vjm/csc220/google2/33.html=81, edu.miami.cs.www/home/vjm/csc220/google2/34.html=177, edu.miami.cs.www/home/vjm/csc220/google2/35.html=79, edu.miami.cs.www/home/vjm/csc220/google2/36.html=204, edu.miami.cs.www/home/vjm/csc220/google2/37.html=78, edu.miami.cs.www/home/vjm/csc220/google2/38.html=173, edu.miami.cs.www/home/vjm/csc220/google2/39.html=75, edu.miami.cs.www/home/vjm/csc220/google2/4.html=238, edu.miami.cs.www/home/vjm/csc220/google2/40.html=223, edu.miami.cs.www/home/vjm/csc220/google2/41.html=71, edu.miami.cs.www/home/vjm/csc220/google2/42.html=170, edu.miami.cs.www/home/vjm/csc220/google2/43.html=70, edu.miami.cs.www/home/vjm/csc220/google2/44.html=193, edu.miami.cs.www/home/vjm/csc220/google2/45.html=67, edu.miami.cs.www/home/vjm/csc220/google2/46.html=166, edu.miami.cs.www/home/vjm/csc220/google2/47.html=66, edu.miami.cs.www/home/vjm/csc220/google2/48.html=232, edu.miami.cs.www/home/vjm/csc220/google2/49.html=65, edu.miami.cs.www/home/vjm/csc220/google2/5.html=123, edu.miami.cs.www/home/vjm/csc220/google2/50.html=163, edu.miami.cs.www/home/vjm/csc220/google2/51.html=62, edu.miami.cs.www/home/vjm/csc220/google2/52.html=187, edu.miami.cs.www/home/vjm/csc220/google2/53.html=61, edu.miami.cs.www/home/vjm/csc220/google2/54.html=160, edu.miami.cs.www/home/vjm/csc220/google2/55.html=59, edu.miami.cs.www/home/vjm/csc220/google2/56.html=218, edu.miami.cs.www/home/vjm/csc220/google2/57.html=58, edu.miami.cs.www/home/vjm/csc220/google2/58.html=158, edu.miami.cs.www/home/vjm/csc220/google2/59.html=56, edu.miami.cs.www/home/vjm/csc220/google2/6.html=226, edu.miami.cs.www/home/vjm/csc220/google2/60.html=182, edu.miami.cs.www/home/vjm/csc220/google2/61.html=54, edu.miami.cs.www/home/vjm/csc220/google2/62.html=154, edu.miami.cs.www/home/vjm/csc220/google2/63.html=53, edu.miami.cs.www/home/vjm/csc220/google2/64.html=251, edu.miami.cs.www/home/vjm/csc220/google2/65.html=49, edu.miami.cs.www/home/vjm/csc220/google2/66.html=153, edu.miami.cs.www/home/vjm/csc220/google2/67.html=48, edu.miami.cs.www/home/vjm/csc220/google2/68.html=178, edu.miami.cs.www/home/vjm/csc220/google2/69.html=44, edu.miami.cs.www/home/vjm/csc220/google2/7.html=120, edu.miami.cs.www/home/vjm/csc220/google2/70.html=152, edu.miami.cs.www/home/vjm/csc220/google2/71.html=40, edu.miami.cs.www/home/vjm/csc220/google2/72.html=208, edu.miami.cs.www/home/vjm/csc220/google2/73.html=36, edu.miami.cs.www/home/vjm/csc220/google2/74.html=149, edu.miami.cs.www/home/vjm/csc220/google2/75.html=33, edu.miami.cs.www/home/vjm/csc220/google2/76.html=175, edu.miami.cs.www/home/vjm/csc220/google2/77.html=31, edu.miami.cs.www/home/vjm/csc220/google2/78.html=148, edu.miami.cs.www/home/vjm/csc220/google2/79.html=29, edu.miami.cs.www/home/vjm/csc220/google2/8.html=240, edu.miami.cs.www/home/vjm/csc220/google2/80.html=225, edu.miami.cs.www/home/vjm/csc220/google2/81.html=27, edu.miami.cs.www/home/vjm/csc220/google2/82.html=144, edu.miami.cs.www/home/vjm/csc220/google2/83.html=23, edu.miami.cs.www/home/vjm/csc220/google2/84.html=171, edu.miami.cs.www/home/vjm/csc220/google2/85.html=20, edu.miami.cs.www/home/vjm/csc220/google2/86.html=140, edu.miami.cs.www/home/vjm/csc220/google2/87.html=19, edu.miami.cs.www/home/vjm/csc220/google2/88.html=196, edu.miami.cs.www/home/vjm/csc220/google2/89.html=16, edu.miami.cs.www/home/vjm/csc220/google2/9.html=117, edu.miami.cs.www/home/vjm/csc220/google2/90.html=137, edu.miami.cs.www/home/vjm/csc220/google2/91.html=14, edu.miami.cs.www/home/vjm/csc220/google2/92.html=169, edu.miami.cs.www/home/vjm/csc220/google2/93.html=11, edu.miami.cs.www/home/vjm/csc220/google2/94.html=134, edu.miami.cs.www/home/vjm/csc220/google2/95.html=8, edu.miami.cs.www/home/vjm/csc220/google2/96.html=233, edu.miami.cs.www/home/vjm/csc220/google2/97.html=7, edu.miami.cs.www/home/vjm/csc220/google2/98.html=132, edu.miami.cs.www/home/vjm/csc220/google2/99.html=3}
+{3=3(edu.miami.cs.www/home/vjm/csc220/google2/99.html)5, 7=7(edu.miami.cs.www/home/vjm/csc220/google2/97.html)2, 8=8(edu.miami.cs.www/home/vjm/csc220/google2/95.html)4, 11=11(edu.miami.cs.www/home/vjm/csc220/google2/93.html)4, 14=14(edu.miami.cs.www/home/vjm/csc220/google2/91.html)4, 16=16(edu.miami.cs.www/home/vjm/csc220/google2/89.html)2, 19=19(edu.miami.cs.www/home/vjm/csc220/google2/87.html)4, 20=20(edu.miami.cs.www/home/vjm/csc220/google2/85.html)4, 23=23(edu.miami.cs.www/home/vjm/csc220/google2/83.html)2, 27=27(edu.miami.cs.www/home/vjm/csc220/google2/81.html)5, 29=29(edu.miami.cs.www/home/vjm/csc220/google2/79.html)2, 31=31(edu.miami.cs.www/home/vjm/csc220/google2/77.html)4, 33=33(edu.miami.cs.www/home/vjm/csc220/google2/75.html)6, 36=36(edu.miami.cs.www/home/vjm/csc220/google2/73.html)2, 40=40(edu.miami.cs.www/home/vjm/csc220/google2/71.html)2, 44=44(edu.miami.cs.www/home/vjm/csc220/google2/69.html)4, 48=48(edu.miami.cs.www/home/vjm/csc220/google2/67.html)2, 49=49(edu.miami.cs.www/home/vjm/csc220/google2/65.html)4, 53=53(edu.miami.cs.www/home/vjm/csc220/google2/63.html)6, 54=54(edu.miami.cs.www/home/vjm/csc220/google2/61.html)2, 56=56(edu.miami.cs.www/home/vjm/csc220/google2/59.html)2, 58=58(edu.miami.cs.www/home/vjm/csc220/google2/57.html)4, 59=59(edu.miami.cs.www/home/vjm/csc220/google2/55.html)4, 61=61(edu.miami.cs.www/home/vjm/csc220/google2/53.html)2, 62=62(edu.miami.cs.www/home/vjm/csc220/google2/51.html)4, 65=65(edu.miami.cs.www/home/vjm/csc220/google2/49.html)3, 66=66(edu.miami.cs.www/home/vjm/csc220/google2/47.html)2, 67=67(edu.miami.cs.www/home/vjm/csc220/google2/45.html)6, 70=70(edu.miami.cs.www/home/vjm/csc220/google2/43.html)2, 71=71(edu.miami.cs.www/home/vjm/csc220/google2/41.html)2, 75=75(edu.miami.cs.www/home/vjm/csc220/google2/39.html)4, 78=78(edu.miami.cs.www/home/vjm/csc220/google2/37.html)2, 79=79(edu.miami.cs.www/home/vjm/csc220/google2/35.html)4, 81=81(edu.miami.cs.www/home/vjm/csc220/google2/33.html)4, 84=84(edu.miami.cs.www/home/vjm/csc220/google2/31.html)2, 86=86(edu.miami.cs.www/home/vjm/csc220/google2/29.html)2, 88=88(edu.miami.cs.www/home/vjm/csc220/google2/27.html)4, 89=89(edu.miami.cs.www/home/vjm/csc220/google2/25.html)3, 93=93(edu.miami.cs.www/home/vjm/csc220/google2/23.html)2, 97=97(edu.miami.cs.www/home/vjm/csc220/google2/21.html)4, 101=101(edu.miami.cs.www/home/vjm/csc220/google2/19.html)2, 104=104(edu.miami.cs.www/home/vjm/csc220/google2/17.html)2, 106=106(edu.miami.cs.www/home/vjm/csc220/google2/15.html)4, 110=110(edu.miami.cs.www/home/vjm/csc220/google2/13.html)2, 113=113(edu.miami.cs.www/home/vjm/csc220/google2/11.html)2, 117=117(edu.miami.cs.www/home/vjm/csc220/google2/9.html)3, 120=120(edu.miami.cs.www/home/vjm/csc220/google2/7.html)2, 123=123(edu.miami.cs.www/home/vjm/csc220/google2/5.html)2, 127=127(edu.miami.cs.www/home/vjm/csc220/google2/3.html)2, 128=128(edu.miami.cs.www/home/vjm/csc220/google2/1.html)1, 132=132(edu.miami.cs.www/home/vjm/csc220/google2/98.html)6, 134=134(edu.miami.cs.www/home/vjm/csc220/google2/94.html)4, 137=137(edu.miami.cs.www/home/vjm/csc220/google2/90.html)12, 140=140(edu.miami.cs.www/home/vjm/csc220/google2/86.html)4, 144=144(edu.miami.cs.www/home/vjm/csc220/google2/82.html)4, 148=148(edu.miami.cs.www/home/vjm/csc220/google2/78.html)8, 149=149(edu.miami.cs.www/home/vjm/csc220/google2/74.html)4, 152=152(edu.miami.cs.www/home/vjm/csc220/google2/70.html)8, 153=153(edu.miami.cs.www/home/vjm/csc220/google2/66.html)8, 154=154(edu.miami.cs.www/home/vjm/csc220/google2/62.html)4, 158=158(edu.miami.cs.www/home/vjm/csc220/google2/58.html)4, 160=160(edu.miami.cs.www/home/vjm/csc220/google2/54.html)8, 163=163(edu.miami.cs.www/home/vjm/csc220/google2/50.html)6, 166=166(edu.miami.cs.www/home/vjm/csc220/google2/46.html)4, 169=169(edu.miami.cs.www/home/vjm/csc220/google2/92.html)6, 170=170(edu.miami.cs.www/home/vjm/csc220/google2/42.html)8, 171=171(edu.miami.cs.www/home/vjm/csc220/google2/84.html)12, 173=173(edu.miami.cs.www/home/vjm/csc220/google2/38.html)4, 175=175(edu.miami.cs.www/home/vjm/csc220/google2/76.html)6, 177=177(edu.miami.cs.www/home/vjm/csc220/google2/34.html)4, 178=178(edu.miami.cs.www/home/vjm/csc220/google2/68.html)6, 181=181(edu.miami.cs.www/home/vjm/csc220/google2/30.html)8, 182=182(edu.miami.cs.www/home/vjm/csc220/google2/60.html)12, 185=185(edu.miami.cs.www/home/vjm/csc220/google2/26.html)4, 187=187(edu.miami.cs.www/home/vjm/csc220/google2/52.html)6, 191=191(edu.miami.cs.www/home/vjm/csc220/google2/22.html)4, 193=193(edu.miami.cs.www/home/vjm/csc220/google2/44.html)6, 196=196(edu.miami.cs.www/home/vjm/csc220/google2/88.html)8, 200=200(edu.miami.cs.www/home/vjm/csc220/google2/18.html)6, 204=204(edu.miami.cs.www/home/vjm/csc220/google2/36.html)9, 208=208(edu.miami.cs.www/home/vjm/csc220/google2/72.html)12, 211=211(edu.miami.cs.www/home/vjm/csc220/google2/14.html)4, 215=215(edu.miami.cs.www/home/vjm/csc220/google2/28.html)6, 218=218(edu.miami.cs.www/home/vjm/csc220/google2/56.html)8, 221=221(edu.miami.cs.www/home/vjm/csc220/google2/10.html)4, 222=222(edu.miami.cs.www/home/vjm/csc220/google2/20.html)6, 223=223(edu.miami.cs.www/home/vjm/csc220/google2/40.html)8, 225=225(edu.miami.cs.www/home/vjm/csc220/google2/80.html)10, 226=226(edu.miami.cs.www/home/vjm/csc220/google2/6.html)4, 227=227(edu.miami.cs.www/home/vjm/csc220/google2/12.html)6, 231=231(edu.miami.cs.www/home/vjm/csc220/google2/24.html)8, 232=232(edu.miami.cs.www/home/vjm/csc220/google2/48.html)10, 233=233(edu.miami.cs.www/home/vjm/csc220/google2/96.html)12, 235=235(edu.miami.cs.www/home/vjm/csc220/google2/2.html)2, 238=238(edu.miami.cs.www/home/vjm/csc220/google2/4.html)3, 240=240(edu.miami.cs.www/home/vjm/csc220/google2/8.html)4, 244=244(edu.miami.cs.www/home/vjm/csc220/google2/16.html)5, 248=248(edu.miami.cs.www/home/vjm/csc220/google2/32.html)6, 251=251(edu.miami.cs.www/home/vjm/csc220/google2/64.html)7}
+{88=225, 89=44, 90=153, 91=40, 92=185, 93=31, 94=140, 95=27, 96=248, 97=19, 10=148, 98=137, 11=11, 99=16, 12=191, 13=36, 14=134, 15=65, 16=235, 17=53, 18=149, 19=23, 1=3, 2=132, 3=7, 4=182, 5=20, 6=144, 7=33, 8=223, 9=8, 20=215, 21=84, 22=170, 23=75, 24=227, 25=66, 26=160, 27=58, 28=193, 29=48, 30=152, 31=29, 32=244, 33=14, 34=208, 35=128, 36=226, 37=127, 38=200, 39=123, 40=233, 41=120, 42=187, 43=117, 44=222, 45=113, 46=181, 47=110, 48=240, 49=106, 50=178, 51=104, 52=221, 53=101, 54=177, 55=97, 56=232, 57=93, 58=175, 59=89, 60=218, 61=88, 62=173, 63=86, 64=251, 65=81, 66=171, 67=79, 68=211, 69=78, 70=169, 71=71, 72=231, 73=70, 74=166, 75=67, 76=204, 77=62, 78=163, 79=61, 80=238, 81=59, 82=158, 83=56, 84=196, 85=54, 86=154, 87=49}
+{3=[3, 7, 8, 11, 14, 16, 19, 20, 23, 27, 29, 31, 33, 36, 40, 44, 48, 49, 53, 54, 56, 58, 59, 61, 62, 65, 66, 67, 70, 71, 75, 78, 79, 81, 84, 86, 88, 89, 93, 97, 101, 104, 106, 110, 113, 117, 120, 123, 127, 128, 132, 134, 137, 140, 144, 148, 149, 152, 153, 154, 158, 160, 163, 166, 169, 170, 171, 173, 175, 177, 178, 181, 182, 185, 187, 191, 193, 196, 200, 204, 208, 211, 215, 218, 221, 222, 223, 225, 226, 227, 231, 232, 233, 235, 238, 240, 244, 248, 251], 7=[3, 11, 19, 27, 33, 44, 53, 58, 62, 67, 75, 81, 88, 97, 106, 117, 127, 137, 148, 153, 160, 170, 171, 181, 182, 200, 204, 208, 226, 227, 231, 232, 233], 8=[3, 27, 53, 67, 88, 117, 137, 160, 200, 204, 208], 11=[3, 31, 59, 81, 113, 153, 191, 193, 196], 14=[3, 81, 153], 16=[3], 19=[7], 20=[8, 20, 33, 49, 59, 67, 79, 89, 106, 123, 137, 152, 163, 181, 182, 221, 222, 223, 225], 23=[8, 58, 101, 173, 175], 27=[8], 29=[11, 84, 154], 31=[11], 33=[14, 31, 53, 65, 79, 97, 120, 132, 152, 170, 171, 211, 215, 218], 36=[14, 49, 75, 110, 148, 185, 187], 40=[14], 44=[16], 48=[19, 86, 158], 49=[19], 53=[20, 62, 104, 177, 178], 54=[20], 56=[23], 58=[27, 88, 160], 59=[27], 61=[29], 62=[31], 65=[33, 67, 106, 137, 181, 182], 66=[33, 89, 163], 67=[33], 70=[36], 71=[40], 75=[44, 93, 166, 169], 78=[44], 79=[48], 81=[49], 84=[53, 97, 170, 171], 86=[53], 88=[54], 89=[56], 93=[58], 97=[59], 101=[61], 104=[62], 106=[65, 132], 110=[66, 134], 113=[67, 137], 117=[70, 140], 120=[71, 144], 123=[75, 148], 127=[78, 149], 128=[79, 152], 132=[132, 134, 137, 140, 144, 148, 149, 152, 153, 154, 158, 160, 163, 166, 169, 170, 171, 173, 175, 177, 178, 181, 182, 185, 187, 191, 193, 196, 200, 204, 208, 211, 215, 218, 221, 222, 223, 225, 226, 227, 231, 232, 233, 235, 238, 240, 244, 248, 251], 134=[132, 152, 170, 171, 211, 215, 218], 137=[132], 140=[134], 144=[137, 148, 153, 160, 170, 171, 181, 182, 200, 204, 208, 226, 227, 231, 232, 233], 148=[137, 152, 163, 181, 182, 221, 222, 223, 225], 149=[137, 160, 200, 204, 208], 152=[137, 181, 182], 153=[137], 154=[140], 158=[144], 160=[148, 185, 187], 163=[148], 166=[149], 169=[152], 170=[153, 191, 193, 196], 171=[153], 173=[154], 175=[158], 177=[160], 178=[163], 181=[166, 169], 182=[169, 171, 175, 178, 182, 187, 193, 196, 204, 208, 215, 218, 222, 223, 225, 227, 231, 232, 233, 238, 240, 244, 248, 251], 185=[169], 187=[170, 171], 191=[171, 182, 204, 208, 227, 231, 232, 233], 193=[171, 215, 218], 196=[171], 200=[173, 175], 204=[175], 208=[177, 178], 211=[178], 215=[182, 222, 223, 225], 218=[182], 221=[187], 222=[193, 196], 223=[196, 208, 218, 223, 225, 231, 232, 233, 240, 244, 248, 251], 225=[196], 226=[204, 208], 227=[208, 231, 232, 233], 231=[208], 232=[218], 233=[223, 225], 235=[225, 232, 233, 244, 248, 251], 238=[225], 240=[232, 233], 244=[233, 248, 251], 248=[233], 251=[251]}
+Enter search words. 
+137(edu.miami.cs.www/home/vjm/csc220/google2/90.html)12
+181(edu.miami.cs.www/home/vjm/csc220/google2/30.html)8
+182(edu.miami.cs.www/home/vjm/csc220/google2/60.html)12
+Found [2, 3, 5] on
+http://www.cs.miami.edu/home/vjm/csc220/google2/90.html
+http://www.cs.miami.edu/home/vjm/csc220/google2/60.html
+http://www.cs.miami.edu/home/vjm/csc220/google2/30.html
+Enter search words. 
+171(edu.miami.cs.www/home/vjm/csc220/google2/84.html)12
+182(edu.miami.cs.www/home/vjm/csc220/google2/60.html)12
+204(edu.miami.cs.www/home/vjm/csc220/google2/36.html)9
+208(edu.miami.cs.www/home/vjm/csc220/google2/72.html)12
+227(edu.miami.cs.www/home/vjm/csc220/google2/12.html)6
+231(edu.miami.cs.www/home/vjm/csc220/google2/24.html)8
+232(edu.miami.cs.www/home/vjm/csc220/google2/48.html)10
+233(edu.miami.cs.www/home/vjm/csc220/google2/96.html)12
+Found [2, 3, 4] on
+http://www.cs.miami.edu/home/vjm/csc220/google2/60.html
+http://www.cs.miami.edu/home/vjm/csc220/google2/84.html
+http://www.cs.miami.edu/home/vjm/csc220/google2/72.html
+http://www.cs.miami.edu/home/vjm/csc220/google2/96.html
+http://www.cs.miami.edu/home/vjm/csc220/google2/48.html
+Enter search words. 
+137(edu.miami.cs.www/home/vjm/csc220/google2/90.html)12
+148(edu.miami.cs.www/home/vjm/csc220/google2/78.html)8
+153(edu.miami.cs.www/home/vjm/csc220/google2/66.html)8
+160(edu.miami.cs.www/home/vjm/csc220/google2/54.html)8
+170(edu.miami.cs.www/home/vjm/csc220/google2/42.html)8
+171(edu.miami.cs.www/home/vjm/csc220/google2/84.html)12
+181(edu.miami.cs.www/home/vjm/csc220/google2/30.html)8
+182(edu.miami.cs.www/home/vjm/csc220/google2/60.html)12
+200(edu.miami.cs.www/home/vjm/csc220/google2/18.html)6
+204(edu.miami.cs.www/home/vjm/csc220/google2/36.html)9
+208(edu.miami.cs.www/home/vjm/csc220/google2/72.html)12
+226(edu.miami.cs.www/home/vjm/csc220/google2/6.html)4
+227(edu.miami.cs.www/home/vjm/csc220/google2/12.html)6
+231(edu.miami.cs.www/home/vjm/csc220/google2/24.html)8
+232(edu.miami.cs.www/home/vjm/csc220/google2/48.html)10
+233(edu.miami.cs.www/home/vjm/csc220/google2/96.html)12
+Found [2, 3] on
+http://www.cs.miami.edu/home/vjm/csc220/google2/72.html
+http://www.cs.miami.edu/home/vjm/csc220/google2/60.html
+http://www.cs.miami.edu/home/vjm/csc220/google2/90.html
+http://www.cs.miami.edu/home/vjm/csc220/google2/96.html
+http://www.cs.miami.edu/home/vjm/csc220/google2/84.html
+Enter search words. 
+132(edu.miami.cs.www/home/vjm/csc220/google2/98.html)6
+134(edu.miami.cs.www/home/vjm/csc220/google2/94.html)4
+137(edu.miami.cs.www/home/vjm/csc220/google2/90.html)12
+140(edu.miami.cs.www/home/vjm/csc220/google2/86.html)4
+144(edu.miami.cs.www/home/vjm/csc220/google2/82.html)4
+148(edu.miami.cs.www/home/vjm/csc220/google2/78.html)8
+149(edu.miami.cs.www/home/vjm/csc220/google2/74.html)4
+152(edu.miami.cs.www/home/vjm/csc220/google2/70.html)8
+153(edu.miami.cs.www/home/vjm/csc220/google2/66.html)8
+154(edu.miami.cs.www/home/vjm/csc220/google2/62.html)4
+158(edu.miami.cs.www/home/vjm/csc220/google2/58.html)4
+160(edu.miami.cs.www/home/vjm/csc220/google2/54.html)8
+163(edu.miami.cs.www/home/vjm/csc220/google2/50.html)6
+166(edu.miami.cs.www/home/vjm/csc220/google2/46.html)4
+169(edu.miami.cs.www/home/vjm/csc220/google2/92.html)6
+170(edu.miami.cs.www/home/vjm/csc220/google2/42.html)8
+171(edu.miami.cs.www/home/vjm/csc220/google2/84.html)12
+173(edu.miami.cs.www/home/vjm/csc220/google2/38.html)4
+175(edu.miami.cs.www/home/vjm/csc220/google2/76.html)6
+177(edu.miami.cs.www/home/vjm/csc220/google2/34.html)4
+178(edu.miami.cs.www/home/vjm/csc220/google2/68.html)6
+181(edu.miami.cs.www/home/vjm/csc220/google2/30.html)8
+182(edu.miami.cs.www/home/vjm/csc220/google2/60.html)12
+185(edu.miami.cs.www/home/vjm/csc220/google2/26.html)4
+187(edu.miami.cs.www/home/vjm/csc220/google2/52.html)6
+191(edu.miami.cs.www/home/vjm/csc220/google2/22.html)4
+193(edu.miami.cs.www/home/vjm/csc220/google2/44.html)6
+196(edu.miami.cs.www/home/vjm/csc220/google2/88.html)8
+200(edu.miami.cs.www/home/vjm/csc220/google2/18.html)6
+204(edu.miami.cs.www/home/vjm/csc220/google2/36.html)9
+208(edu.miami.cs.www/home/vjm/csc220/google2/72.html)12
+211(edu.miami.cs.www/home/vjm/csc220/google2/14.html)4
+215(edu.miami.cs.www/home/vjm/csc220/google2/28.html)6
+218(edu.miami.cs.www/home/vjm/csc220/google2/56.html)8
+221(edu.miami.cs.www/home/vjm/csc220/google2/10.html)4
+222(edu.miami.cs.www/home/vjm/csc220/google2/20.html)6
+223(edu.miami.cs.www/home/vjm/csc220/google2/40.html)8
+225(edu.miami.cs.www/home/vjm/csc220/google2/80.html)10
+226(edu.miami.cs.www/home/vjm/csc220/google2/6.html)4
+227(edu.miami.cs.www/home/vjm/csc220/google2/12.html)6
+231(edu.miami.cs.www/home/vjm/csc220/google2/24.html)8
+232(edu.miami.cs.www/home/vjm/csc220/google2/48.html)10
+233(edu.miami.cs.www/home/vjm/csc220/google2/96.html)12
+235(edu.miami.cs.www/home/vjm/csc220/google2/2.html)2
+238(edu.miami.cs.www/home/vjm/csc220/google2/4.html)3
+240(edu.miami.cs.www/home/vjm/csc220/google2/8.html)4
+244(edu.miami.cs.www/home/vjm/csc220/google2/16.html)5
+248(edu.miami.cs.www/home/vjm/csc220/google2/32.html)6
+251(edu.miami.cs.www/home/vjm/csc220/google2/64.html)7
+Found [2] on
+http://www.cs.miami.edu/home/vjm/csc220/google2/72.html
+http://www.cs.miami.edu/home/vjm/csc220/google2/90.html
+http://www.cs.miami.edu/home/vjm/csc220/google2/84.html
+http://www.cs.miami.edu/home/vjm/csc220/google2/96.html
+http://www.cs.miami.edu/home/vjm/csc220/google2/60.html
+Enter search words. 
+SCORE 50/50

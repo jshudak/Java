@@ -1,0 +1,51 @@
+REMOVE
+
+Your public remove method calls find, like most remove methods do.  If
+the entry is not there, return null.  If the entry is there, save its
+value because you will need to return it at the end.  But first call a
+recursive remove method to remove the entry with the key from the trie.
+
+Your recursive remove looks like the recursive find and put at first,
+setting iEntry and entry.  However, you do not need to do matching to
+figure out how to change iKey because all the characters in entry.sub
+will match (because the key IS in the trie).
+
+If all the characters in the key have been matched (iKey = what?) and
+entry's array has no entries, remove the entry from the array (that
+remove was called with), decrement size, and return.  But if entry's
+array does have entries, just nullify entry by setting is key and
+value to null.  Otherwise (if the key is not all matched) make a
+recursive call to remove.
+
+After that, if the entry has no key (because of your nullification or
+because it never did) and if its array has only one entry, then
+replace that entry in the array by that (one) entry and replaces the
+sub of that entry by the combination of entry's sub and that (one)
+entry's sub.
+
+For example, if you recursively remove bobby from bob's array
+
+bob null null
+   by bobby 3
+   ca null null
+     lf bobcalf 4
+     t bobcat 5
+
+You get
+
+bob null null
+   ca null null
+     lf bobcalf 4
+     t bobcat 5
+
+
+But bob has no key and its array has only entry, so you should replace
+it with the ca entry, modified so its sub is bobca:
+
+bobca null null
+     lf bobcalf 4
+     t bobcat 5
+
+This is the same thing you would get if you had never added bobby and
+only had added bobcalf and bobcat.
+

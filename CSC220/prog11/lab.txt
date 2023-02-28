@@ -1,0 +1,46 @@
+0. Create prog11.  Download Trie.java.
+
+
+1. Implement toString in Trie.  You should see:
+
+bob null null
+   by bobby 0
+   ca null null
+     lf bobcalf 1
+     t bobcat 2
+catdog catdog 3
+
+  Plus incorrect output from get.
+
+
+2. Implement the recursive find.  Now containsKey and get should work.
+   The ten gets I do for you should be correct.
+
+
+HOMEWORK
+
+3. Implement the recursive put.  Now put should work.  Ditto testing.
+
+
+4. Implement entryList.  Now entrySet (command 5) should work.
+
+
+5. Copy your solution to Jumble from last week to this package and
+   change the package at the top to prog11.  Switch to your Trie.
+   Test on dict.
+
+   If you did not finish Jumble for prog10, you can finish it for half
+   credit.
+
+
+EXTRA CREDIT
+
+If you scored less that 50 on a prior prog, you can earn up to 50
+points by doing the following.
+
+6. Implement remove.  The result of remove has to be the same as that
+   key were never inserted at all.
+
+
+You have to work on your own.  Please do not ask for the TA's help on
+extra credit.

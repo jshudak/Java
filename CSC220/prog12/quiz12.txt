@@ -1,0 +1,125 @@
+FINISHED  SCORE:   9.25 /10
+
+0. A disk block is 512 (2^9) bytes.  How many blocks are there on an
+   8T (8 * 2^40 bytes) disk drive?  Give both a power of 2 and an
+   approximate base-10 value.  Can you use a 32-bit int to address
+   those blocks?
+
+	2^34
+	17179869184
+	you CANNOT use an int to address these blocks.
+
+
+
+
+
+
+1. Each web page is indexed by the Long integer block address of the
+   first block of its information file (on Noogle's hard disk for page
+   files).  The same is true for each word (on Noogle's hard disk for
+   word files).  Given a word, we need to determine quickly which web
+   pages contain it.  Where do we store this information and in what
+   format?
+
+
+	As a list of pages attached to the word. A List of longs (the page indexes).
+
+
+2. Which is closer to www.miami.edu alphabetically: www.cs.miami.edu
+   or www.google.com?
+
+
+	www.google.com, g is closer to m than c
+
+
+3. The following is a directory listing of a TRIE of web pages.
+   Directory "edu."  has subdirectories "miami." and "nova.www" and so
+   forth.  What are the original web pages?  (You can leave off the
+   http://)
+
+edu.
+    miami.
+          c
+           cs.www
+               data file
+           s.www
+               data file
+          www
+              data file
+    nova.www
+        data file
+
+
+
+	www.ccs.miami.edu
+	www.cs.miami.edu
+	www.nova.edu
+			-1/4 missed www.miami.edu
+
+
+
+
+4. Assuming it takes one disk seek to go to a subdirectory, what is
+   the maximum number of disk seeks to get to the TRIE directory of
+   the following web page?
+
+
+	http://www.cs.miami.edu/home/vjm/csc220/index.html
+
+
+	5
+		-1/2 It  should be every letter, not ever word. Answer is 43.
+
+
+
+
+5. Why is it likely to take fewer disk seeks than that maximum (in #4)?
+
+
+	There are few websites with the same order
+	of /*word*/*word*/*word* needing more
+	things saved in Trie
+
+
+6. If my web page contains ten links to your web page, how many times
+   should the number of references for your page be incremented?  Why?
+
+
+	Only 1, because webpages cannot be 'double voted' to prevent
+		messing with google's algorithm
+
+
+7. Set<Long> pageSet is a set of page indices and Long pageIndex is a
+   page index.  How do we add pageIndex to the set?  How can we print
+   out all the elements of pageSet?
+
+
+	pageSet.add(pageIndex);
+
+
+	for(Long data : pageSet)
+		System.out.println(data);
+
+
+
+
+8. List<Long> wordFile is a list of page indices and Long pageIndex is
+   a page index.  Write the if condition "if wordFile does not have
+   pageIndex as its last element" in Java.  Be careful: wordFile might
+   be empty.  Also different Long can have the same value.
+
+
+	if (wordFile.size() <= 0 || 
+		!(wordFile.get(wordFile.size() - 1).equals(pageIndex)))
+
+
+
+
+
+
+
+9. Why doesn't Noogle use a directory TRIE to implement the map from a
+   word to its index?
+
+	It doesnt need to be ordered, so an unordered Hashmap does
+	the same job and can be stored on the RAM

@@ -1,0 +1,101 @@
+0. Go over mary.txt.  Ask questions about anything you do not
+   understand.  Be prepared to answer questions if you don't ask
+   questions!
+
+1. Install jsoup-1.8.3.jar:
+
+   In Eclipse, right click on the csc220 project and select "Properties"
+   In the menu on the left side, choose Java Build Path
+   Select the Libraries tab
+   Click Add External Jar (click Classpath if greyed out)
+   In the file browser that pops up, navigate to
+   workspace/csc220/src/prog12
+   and select jsoup-1.8.3.jar
+   Click Open, now the jar has been added to the project
+   (It should be under classpath, NOT moduleinfo.)
+   Click Apply and Close
+
+   BetterBrowser.java should now not have a red x.
+
+
+2. Create a Noogle (N(ew) (G)oogle) class which implements
+   SearchEngine.  For now, collect is empty and search returns a new
+   String[0];
+
+
+3. Look at PageFile.java, Disk.java, and DiskTrie.java.  Ask
+   questions if you do not understand what they do.
+
+   Put a Disk variable pageDisk inside Noogle to store the
+   information about web pages.  What type of Disk (what is T)?
+   Initialize pageDisk.
+
+   Put a DiskTrie variable urlIndex into Noogle.  Initialize.
+
+
+4. Write an indexPage method that takes the String url of the web page
+   as input and returns the (Long) index of its newly created page
+   file.  It gets the index of a new file from pageDisk, creates a new
+   PageFile, and stores the PageFile in pageDisk.  Then it tells the
+   DiskTrie urlIndex to map url to that index and returns the index.
+
+
+5. In collect, create a queue of page indices.
+
+   For each starting URL, check if it has been indexed already (how?).
+   If not, index it using indexPage and put the new index into the queue.
+
+   Do the following while the queue is not empty:
+
+   Dequeue a page index.
+   Load its URL into the browser.
+   If it loads, get its list of URLs.
+
+   For each URL in that list that has not been indexed yet, index it
+   using indexPage and add its index to the queue.
+
+   Put a print statement inside your indexPage method and check that
+   Main indexes pages in the same order as mary.txt.
+
+
+HOMEWORK
+
+6. Please install the Respondus lockdown browser.  Here is an
+   instruction video: https://youtu.be/RANyaZh5-5M
+
+   View this video to learn how to take an exam using Respondus:
+   https://youtu.be/XuX8WoeAycs
+
+   Review the guide:
+   https://web.respondus.com/wp-content/uploads/2019/08/RLDB-Quick-Start-Guide-Bb-Student.pdf
+
+   Finally, take the Sample Exam under Assignments in the left of the
+   CSC220 Blackboard page.
+
+
+7. Continuing from #5, for each URL on the page, increment its number
+   of references.  Test.  This version will allow double voting so it
+   won't match mary.txt
+
+	\/\/\/\/\/\/\/
+   Put all the page indices into a Set first.  Then increment the
+   number of references for each element of the Set.  Now it should
+   match mary.txt.
+
+
+7. Look at RAMTable.java.  Put a Disk variable wordDisk into Noogle.
+   What is T?  (Check the notes!)  Create a wordIndex table.
+
+
+8. Write the indexWord method.  What is the type of the "file" variable?
+
+
+9. For each word on the page (that was just dequeued), add the current
+   page index to its list (its "file").  Test.  This will not match
+   mary.txt because there will be duplicates.
+
+   Add code to avoid adding a page index if it is already at the end
+   of the list (because the word appeared earlier on that page).  Now
+   it should match mary.txt.
+
+

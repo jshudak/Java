@@ -1,0 +1,125 @@
+FINISHED SCORE:  8/10
+
+0. Why it is important for Noogle to use a queue instead of a stack in the COLLECT
+   method?
+
+
+	First in, first out to show increasing order
+
+
+
+1. The first column shows the last page id read from each of three lists and the
+   rest shows the unread portion of those lists.  Show the result of reading what
+   you should read next (to avoid skipping over matches).  Just copy and paste the
+   lists again and edit them.
+
+   a.		222   333 444 555 666 777
+		444   666 1234
+		444   555 600 666 678 880 888
+
+
+		333   444 555 666 777
+		444   666 1234
+		444   555 600 666 678 880 888
+
+
+
+
+
+   b.		555   666 777
+		666   1234
+		550   600 666 678 880 888
+
+
+		666   777
+		666   1234
+		600   666 678 880 888
+
+
+
+
+
+
+2. Suppose "Milenkovic" appears on a million pages and "Java" appears on a billion
+   pages.  What is the MAXIMUM number of comparisons it could take to find all pages
+   with "Milenkovic" and "Java" using the merge-like algorithm (from #1)?  Answer is
+   a number, not an O().
+
+
+	1,001,000,000
+	1 billion + 1 million
+
+
+
+3. About how many comparisons would it take to find all matches if you COULD use
+   binary search to look for each Milenkovic page in the list of Java pages?  Again,
+   answer as a number, not an O().
+
+
+	log2(1,000,000,000) = 30 * each milenkovik = 30,000,000		-1
+
+
+4. In order to find the top 100 pages out of a million matches, you use a priority
+   queue.  Why not just sort the million matches (in order of increasing ref count)
+   and take the last 100?
+
+
+	Sorting anything takes a multiplicity of n (ex. O(n logn) or O(n^2).
+	Adding to priority queues only takes O(n).
+
+
+
+
+
+5,6. Suppose I gave you an online copy of the UM directory and asked you to record
+   the number of people who have each first name: how many "Aaron"s, "Julie"s,
+   "Tracy"s, etc.  Then I ask you how many "Victor"s there are.  What interface
+   would you use?  Which implementation?  Which methods?  What are their O() running
+   times assuming m entries and n different names?  What is the total O() running
+   time?  The time to look up "Victor" (or any other name)?
+
+
+
+	Map >> HashMap<String, int>
+	
+	if (map.containsKey("name"))
+		map.set("name", map.get("name")+1);
+
+	else
+		map.put("name", 1);
+
+	>> Then use map.get("name") to get the number. This takes O(m);
+
+
+
+7,8. Now suppose I ask you for a list of the k most popular first names, in order,
+   with their frequencies.  Which (additional) interface, implementation, methods?
+   What total O() running time?
+
+
+
+	Queue >> PriorityQueue<String>
+
+	queue.compareTo(map.peek("name"), map.peek("name").next());
+	queue.offer("name");
+
+
+
+	O(n);
+
+
+9. Suppose instead I just want to pick a first name at random every day
+   ("The name of the day is Lucina!") with each first name equally likely, using
+   Random nextInt.  Same questions.
+
+
+	
+	List
+	Set<String>				-1
+
+	set.add(all Strings in HashMap)
+	int i = *aRandomInt*
+	set.remove(i)
+		>> then set.add(i) after you're done
+
+	O(n);
