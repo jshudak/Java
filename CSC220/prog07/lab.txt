@@ -1,0 +1,144 @@
+1. In Heap, go over all the methods up to and including offer.  Make
+   sure you understand them.  Implement poll().  It uses ITERATION.
+
+For the (final) loop, what's the condition on the while?
+
+	The item at index is greater than one of its children.
+
+How do you say this in Java:
+
+	(The item at) index is greater than its left child or
+        index is greater than its right child
+
+More specifically
+
+	index has a left child and is greater than that child
+	or
+	index has a right child and is greater than that child
+
+Once you have this condition, then you need to do the inside of the loop:
+
+	swap index with the smaller child
+
+More specifically
+
+	if right child is less than left child
+	then swap index with right
+	else swap index with left
+
+Can you get the logic right?  Remember, the parent might not HAVE a
+right child.  Who wins then?  Make sure the if condition handles this case.
+
+   Run Heap to make sure poll works correctly.  Check your output
+   carefully and don't expect the lab TA to catch every error.  (If
+   they don't, I will!)
+
+
+2. Copy your WordPath.java from prog06 to prog07 and change the
+   package to prog07 at the top if this does not happen automatically.
+
+   a. Add a method that returns the number of letters two words
+      differ.  For example lettersDifferent("said", "rain") is 2.
+      Position matters so lettersDifferent("arin", "rain") is also 2.
+      You can assume the words have the same length.
+
+  static int lettersDifferent (String word, String target) {
+
+   b. Add a method the determines the distance of an Entry back to the
+      start word by counting how many times you can follow previous
+      before reaching null.
+
+  int distanceToStart (Entry entry) {
+
+   c. Create a Comparator class for Entry inside WordPath:
+
+  protected class EntryComparator implements Comparator<Entry> {
+
+      Its constructor should take the target word as an argument and
+      save it in the class.
+
+      It should also have a priority method that returns the sum of
+      the distance to start and the letters different from the target:
+
+    int priority (Entry entry) {
+
+      The compare method, required by the interface, returns the
+      difference of priorities.
+
+   d. Test using TestEntryComparator.  If your Entry class is private,
+      you will have to make it protected.
+
+
+DUE WEDNESDAY MARCH 18
+
+3. If you haven't yet, you will need to finish solve from the prog06
+   homework.
+
+   Add code to solve so it displays a message about how many times it
+   polls the queue.  (Poll is expensive because you have the check the
+   entire dictionary for neighbors.)  You should get 481 for "snow" to
+   "rain".
+
+   Copy all of solve and call the new method solve2.  In solve2, use a
+   PriorityQueue (import java.util.PriorityQueue) as the Queue.  Give
+   its constructor a new EntryComparator on the target word.
+
+   Add a button for solve2.  It should report only 117 polls (epic!) but
+   now take eight steps to get from snow to rain (brutal!).
+
+
+4. Implement the remove method in Heap.  Run Heap to test it.  Check
+   carefully.
+
+
+5. In WordPath, copy solve2 to solve3 and add another button.
+   Currently, we only accept a nextEntry if it is not the start entry,
+   its previous is null, and it is one letter different from theEntry.
+
+   Add an else if whose condition is nextEntry is not the start entry
+   and is one letter different from theEntry and its distance to start
+   is greater than theEntry's plus 1.  In other words, we HAVE seen it
+   before but now we have found a shorter path to it.
+
+   If that condition is true, set the previous of nextEntry to
+   theEntry, remove nextEntry from the queue and offer it to the queue
+   again.
+
+   Add a button for solve3.  Now it should get from snow to rain in
+   only seven steps using only 74 polls!
+
+
+LAB ON MARCH 4
+
+Java Map (java.util.Map) is the formal interface for a "phone directory".
+Map<K, V> has key (name) type K and value (number) type V.
+
+BST (Binary Search Tree) is an implementation of Map.  The Entry class
+has data, left, and right.  In a binary search tree, left is less and
+right is greater.
+
+6. Implement the (private) BST find method using the notes.  Methods
+   in BST should use RECURSION not iteration.
+
+
+7. Implement the private add method using the notes.  Remember that
+   you need to say Entry<K,V> instead of Entry so it works generically.
+   Make sure you understand what every line does.  The TA can do some
+   examples on the board.  Now, implement the public put method using
+   add.  What do you do with the value add returns?
+
+   Test the program.  The output should be as in bst-output.txt, only
+   the removes won't happen.
+
+
+8. Change the first line of the public remove method.  Implement the
+   private remove method based on the notes.  It will call removeRoot.
+
+
+9. Implement removeRoot.  It will call getMaximum and removeMaximum.
+   The entry returned by getMaximum becomes the root.
+
+
+10. Implement getMaximum and removeMaximum.
+
+

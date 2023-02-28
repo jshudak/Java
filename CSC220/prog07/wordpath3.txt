@@ -1,0 +1,39 @@
+rm: No match.
+prog07/TestWordPath3.java:37: error: unreported exception FileNotFoundException; must be caught or declared to be thrown
+    game.loadWords("words");
+                  ^
+prog07/TestWordPath3.java:47: error: unreported exception FileNotFoundException; must be caught or declared to be thrown
+    game.loadWords("words");
+                  ^
+Note: ./prog07/WordPath.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+2 errors
+Error: Could not find or load main class prog07.TestWordPath3
+Caused by: java.lang.ClassNotFoundException: prog07.TestWordPath3
+
+rm: No match.
+Note: prog07/WordPath.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+What word file should I reference 
+words
+Type starting word: 
+snow
+Type ending word: 
+rain
+Select 0: Human plays.
+Select 1: Computer plays.
+Select 2: Solve2 plays.
+Select 3: Solve3 plays
+3
+Result found:
+snow
+slow
+slot
+slit
+slid
+said
+raid
+rain
+in 74 searches.
+
+SCORE:  15/15

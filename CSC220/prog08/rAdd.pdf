@@ -1,0 +1,1028 @@
+%PDF-1.3
+%‚„œ”
+2 0 obj
+<<
+/Length 1453
+>>
+stream
+BT
+/TT2 1 Tf
+10 0 0 10 43 756.3333 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+[(rAdd.txt)-4500(Mon Mar 09 14:35:42 2020)-4500(1)]TJ
+/TT4 1 Tf
+0 -1.6333 TD
+(SkipMap rAdd \(recursive add\) starts at an entry in the top list and adds entries)Tj
+0 -1.1 TD
+(with the key and value to the bottom list and also to extra ones determined by coin)Tj
+T*
+(flips.  If it adds to a list it returns the new entry.  Otherwise, it returns null.)Tj
+0 -2.2 TD
+(I will name the methods rAdd1, rAdd2, rAdd3, rAdd4.  rAdd1 is the first call.  It)Tj
+0 -1.1 TD
+(calls rAdd2 recursively and so forth.  They are all actually named rAdd, but the)Tj
+T*
+(numbering will help you understand which call we are talking about \(I hope\).)Tj
+0 -2.2 TD
+(        B                          O              T            )Tj
+T*
+(        B     F  G                 O              T  U         )Tj
+T*
+(        B  C  F  G        K     M  O     Q        T  U  W     Z)Tj
+T*
+(     A  B  C  F  G  I  J  K  L  M  O  P  Q  R  S  T  U  W  X  Z)Tj
+0 -1.1 TD
+(     4  3  1  8  6  7  0  2  9  0  8  4  6  3  5  6  3  4  2  0)Tj
+0 -3.3 TD
+(        B                             O              T            )Tj
+0 -2.2 TD
+(        B     F  G                    O              T  U         )Tj
+T*
+(        B  C  F  G        K     M  N  O     Q        T  U  W     Z)Tj
+T*
+(     A  B  C  F  G  I  J  K  L  M  N  O  P  Q  R  S  T  U  W  X  Z)Tj
+0 -1.1 TD
+(     4  3  1  8  6  7  0  2  9  0  6  8  4  6  3  5  6  3  4  2  0)Tj
+ET
+endstream
+endobj
+3 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+9 0 obj
+<<
+/Length 642
+>>
+stream
+BT
+/TT2 1 Tf
+10 0 0 10 43 756.3333 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+[(rAdd.txt)-4500(Mon Mar 09 14:35:42 2020)-4500(2)]TJ
+/TT4 1 Tf
+0 -2.7333 TD
+(        B                          O             *T            )Tj
+0 -2.2 TD
+(        B     F  G                 O              T  U         )Tj
+T*
+(        B  C  F  G        K     M  O     Q        T  U  W     Z)Tj
+T*
+(     A  B  C  F  G  I  J  K  L  M  O  P  Q  R  S  T  U  W  X  Z)Tj
+0 -1.1 TD
+(     4  3  1  8  6  7  0  2  9  0  8  4  6  3  5  6  3  4  2  0)Tj
+0 -2.2 TD
+(rAdd1\(*, N, 6\) is called by put.  put calls with top, and any entry in the topmost)Tj
+0 -1.1 TD
+(list might be the top.)Tj
+ET
+endstream
+endobj
+10 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+12 0 obj
+<<
+/Length 594
+>>
+stream
+BT
+/TT2 1 Tf
+10 0 0 10 43 756.3333 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+[(rAdd.txt)-4500(Mon Mar 09 14:35:42 2020)-4500(3)]TJ
+/TT4 1 Tf
+0 -2.7333 TD
+(       *B                          O              T            )Tj
+0 -2.2 TD
+(        B     F  G                 O              T  U         )Tj
+T*
+(        B  C  F  G        K     M  O     Q        T  U  W     Z)Tj
+T*
+(     A  B  C  F  G  I  J  K  L  M  O  P  Q  R  S  T  U  W  X  Z)Tj
+0 -1.1 TD
+(     4  3  1  8  6  7  0  2  9  0  8  4  6  3  5  6  3  4  2  0)Tj
+0 -2.2 TD
+(rAdd1\(*, N, 6\) first calls find\(*, N\) on the current list and gets B.)Tj
+ET
+endstream
+endobj
+13 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+15 0 obj
+<<
+/Length 689
+>>
+stream
+BT
+/TT2 1 Tf
+10 0 0 10 43 756.3333 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+[(rAdd.txt)-4500(Mon Mar 09 14:35:42 2020)-4500(4)]TJ
+/TT4 1 Tf
+0 -2.7333 TD
+(        B                          O              T            )Tj
+0 -2.2 TD
+(       *B     F  G                 O              T  U         )Tj
+T*
+(        B  C  F  G        K     M  O     Q        T  U  W     Z)Tj
+T*
+(     A  B  C  F  G  I  J  K  L  M  O  P  Q  R  S  T  U  W  X  Z)Tj
+0 -1.1 TD
+(     4  3  1  8  6  7  0  2  9  0  8  4  6  3  5  6  3  4  2  0)Tj
+0 -2.2 TD
+(rAdd1\(*, N, 6\) tests that this is a "skip Entry" \(isSkipEntry\(\) is true\) and then)Tj
+0 -1.1 TD
+(calls rAdd2\(*, N, 6\) recursively on the value \(getEntry\) of B.)Tj
+ET
+endstream
+endobj
+16 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+18 0 obj
+<<
+/Length 591
+>>
+stream
+BT
+/TT2 1 Tf
+10 0 0 10 43 756.3333 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+[(rAdd.txt)-4500(Mon Mar 09 14:35:42 2020)-4500(5)]TJ
+/TT4 1 Tf
+0 -2.7333 TD
+(        B                          O              T            )Tj
+0 -2.2 TD
+(        B     F  G                *O              T  U         )Tj
+T*
+(        B  C  F  G        K     M  O     Q        T  U  W     Z)Tj
+T*
+(     A  B  C  F  G  I  J  K  L  M  O  P  Q  R  S  T  U  W  X  Z)Tj
+0 -1.1 TD
+(     4  3  1  8  6  7  0  2  9  0  8  4  6  3  5  6  3  4  2  0)Tj
+0 -2.2 TD
+(rAdd2\(*, N, 6\) \(the recursive call\) calls find\(*, N\) and gets O.)Tj
+ET
+endstream
+endobj
+19 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+21 0 obj
+<<
+/Length 630
+>>
+stream
+BT
+/TT2 1 Tf
+10 0 0 10 43 756.3333 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+[(rAdd.txt)-4500(Mon Mar 09 14:35:42 2020)-4500(6)]TJ
+/TT4 1 Tf
+0 -2.7333 TD
+(        B                          O              T            )Tj
+0 -2.2 TD
+(        B     F  G                 O              T  U         )Tj
+T*
+(        B  C  F  G        K     M *O     Q        T  U  W     Z)Tj
+T*
+(     A  B  C  F  G  I  J  K  L  M  O  P  Q  R  S  T  U  W  X  Z)Tj
+0 -1.1 TD
+(     4  3  1  8  6  7  0  2  9  0  8  4  6  3  5  6  3  4  2  0)Tj
+0 -2.2 TD
+(rAdd2\(*, N, 6\) tests that this is a skip Entry then calls rAdd3\(*, N, 6\) on the)Tj
+0 -1.1 TD
+(value of O.)Tj
+ET
+endstream
+endobj
+22 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+24 0 obj
+<<
+/Length 582
+>>
+stream
+BT
+/TT2 1 Tf
+10 0 0 10 43 756.3333 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+[(rAdd.txt)-4500(Mon Mar 09 14:35:42 2020)-4500(7)]TJ
+/TT4 1 Tf
+0 -2.7333 TD
+(        B                          O              T            )Tj
+0 -2.2 TD
+(        B     F  G                 O              T  U         )Tj
+T*
+(        B  C  F  G        K    *M  O     Q        T  U  W     Z)Tj
+T*
+(     A  B  C  F  G  I  J  K  L  M  O  P  Q  R  S  T  U  W  X  Z)Tj
+0 -1.1 TD
+(     4  3  1  8  6  7  0  2  9  0  8  4  6  3  5  6  3  4  2  0)Tj
+0 -2.2 TD
+(rAdd3\(*, N, 6\) calls find\(*, N\) and gets M on this level.)Tj
+ET
+endstream
+endobj
+25 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+27 0 obj
+<<
+/Length 630
+>>
+stream
+BT
+/TT2 1 Tf
+10 0 0 10 43 756.3333 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+[(rAdd.txt)-4500(Mon Mar 09 14:35:42 2020)-4500(8)]TJ
+/TT4 1 Tf
+0 -2.7333 TD
+(        B                          O              T            )Tj
+0 -2.2 TD
+(        B     F  G                 O              T  U         )Tj
+T*
+(        B  C  F  G        K     M  O     Q        T  U  W     Z)Tj
+T*
+(     A  B  C  F  G  I  J  K  L *M  O  P  Q  R  S  T  U  W  X  Z)Tj
+0 -1.1 TD
+(     4  3  1  8  6  7  0  2  9  0  8  4  6  3  5  6  3  4  2  0)Tj
+0 -2.2 TD
+(rAdd3\(*, N, 6\) tests that this is a skip Entry then calls rAdd4\(*, N, 6\) on the)Tj
+0 -1.1 TD
+(value of M.)Tj
+ET
+endstream
+endobj
+28 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+30 0 obj
+<<
+/Length 585
+>>
+stream
+BT
+/TT2 1 Tf
+10 0 0 10 43 756.3333 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+[(rAdd.txt)-4500(Mon Mar 09 14:35:42 2020)-4500(9)]TJ
+/TT4 1 Tf
+0 -2.7333 TD
+(        B                          O              T            )Tj
+0 -2.2 TD
+(        B     F  G                 O              T  U         )Tj
+T*
+(        B  C  F  G        K     M  O     Q        T  U  W     Z)Tj
+T*
+(     A  B  C  F  G  I  J  K  L  M *O  P  Q  R  S  T  U  W  X  Z)Tj
+0 -1.1 TD
+(     4  3  1  8  6  7  0  2  9  0  8  4  6  3  5  6  3  4  2  0)Tj
+0 -2.2 TD
+(rAdd4\(*, N, 6\) calls find\(*, N, 6\) and gets O on this level.)Tj
+ET
+endstream
+endobj
+31 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+33 0 obj
+<<
+/Length 726
+>>
+stream
+BT
+/TT2 1 Tf
+10 0 0 10 43 756.3333 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+[(rAdd.txt)-4500(Mon Mar 09 14:35:42 2020)-4500(10)]TJ
+/TT4 1 Tf
+0 -2.7333 TD
+(        B                          O              T            )Tj
+0 -2.2 TD
+(        B     F  G                 O              T  U         )Tj
+T*
+(        B  C  F  G        K     M  O     Q        T  U  W     Z)Tj
+T*
+(     A  B  C  F  G  I  J  K  L  M *O  P  Q  R  S  T  U  W  X  Z)Tj
+0 -1.1 TD
+(     4  3  1  8  6  7  0  2  9  0  8  4  6  3  5  6  3  4  2  0)Tj
+0 -2.2 TD
+(rAdd4\(*, N, 6\) tests that this entry is not a skip entry \(isSkipEntry\(\) is false\) so)Tj
+0 -1.1 TD
+(it is on the bottom.  It canít have key N because put wonít call rAdd if N is)Tj
+T*
+(already there.)Tj
+ET
+endstream
+endobj
+34 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+36 0 obj
+<<
+/Length 662
+>>
+stream
+BT
+/TT2 1 Tf
+10 0 0 10 43 756.3333 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+[(rAdd.txt)-4500(Mon Mar 09 14:35:42 2020)-4500(11)]TJ
+/TT4 1 Tf
+0 -2.7333 TD
+(        B                             O              T            )Tj
+0 -2.2 TD
+(        B     F  G                    O              T  U         )Tj
+T*
+(        B  C  F  G        K     M     O     Q        T  U  W     Z)Tj
+T*
+(     A  B  C  F  G  I  J  K  L  M +N *O  P  Q  R  S  T  U  W  X  Z)Tj
+0 -1.1 TD
+(     4  3  1  8  6  7  0  2  9  0  6  8  4  6  3  5  6  3  4  2  0)Tj
+0 -2.2 TD
+(rAdd4\(*, N, 6\) calls add\(*, new Entry\(N, 6\)\) and returns the result, which is the)Tj
+0 -1.1 TD
+(new Entry with N \(+\).)Tj
+ET
+endstream
+endobj
+37 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+41 0 obj
+<<
+/Length 872
+>>
+stream
+BT
+/TT2 1 Tf
+10 0 0 10 43 756.3333 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+[(rAdd.txt)-4500(Mon Mar 09 14:35:42 2020)-4500(12)]TJ
+/TT4 1 Tf
+0 -2.7333 TD
+(        B                             O              T            )Tj
+0 -2.2 TD
+(        B     F  G                    O              T  U         )Tj
+T*
+(        B  C  F  G        K    *M  N  O     Q        T  U  W     Z)Tj
+T*
+(     A  B  C  F  G  I  J  K  L  M +N  O  P  Q  R  S  T  U  W  X  Z)Tj
+0 -1.1 TD
+(     4  3  1  8  6  7  0  2  9  0  6  8  4  6  3  5  6  3  4  2  0)Tj
+0 -2.2 TD
+(rAdd3 gets the new Entry \(+\) from rAdd4.  Remember, it was pointing at M on its)Tj
+0 -1.1 TD
+(level.)Tj
+0 -2.2 TD
+(Since it got back a new Entry, it flips a coin to decide if it will add a new Entry)Tj
+0 -1.1 TD
+(on its level.  It gets heads \(head\(\) is true\) so it calls add\(*, new Entry\(N, +\)\))Tj
+T*
+(and returns the result.)Tj
+ET
+endstream
+endobj
+42 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+44 0 obj
+<<
+/Length 820
+>>
+stream
+BT
+/TT2 1 Tf
+10 0 0 10 43 756.3333 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+[(rAdd.txt)-4500(Mon Mar 09 14:35:42 2020)-4500(13)]TJ
+/TT4 1 Tf
+0 -2.7333 TD
+(        B                             O              T            )Tj
+0 -2.2 TD
+(        B     F  G                   *O              T  U         )Tj
+T*
+(        B  C  F  G        K     M +N  O     Q        T  U  W     Z)Tj
+T*
+(     A  B  C  F  G  I  J  K  L  M  N  O  P  Q  R  S  T  U  W  X  Z)Tj
+0 -1.1 TD
+(     4  3  1  8  6  7  0  2  9  0  6  8  4  6  3  5  6  3  4  2  0)Tj
+0 -2.2 TD
+(rAdd2 gets back the new Entry.  It is pointing at O on its level.)Tj
+T*
+(Since it got back a new Entry, it flips a coin to decide if it will add a new Entry)Tj
+0 -1.1 TD
+(on its level.  It gets TAILS \(heads\(\) is false\) so it does not add a new Entry and)Tj
+T*
+(just returns null.)Tj
+ET
+endstream
+endobj
+45 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+47 0 obj
+<<
+/Length 680
+>>
+stream
+BT
+/TT2 1 Tf
+10 0 0 10 43 756.3333 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+[(rAdd.txt)-4500(Mon Mar 09 14:35:42 2020)-4500(14)]TJ
+/TT4 1 Tf
+0 -2.7333 TD
+(       *B                             O              T            )Tj
+0 -2.2 TD
+(        B     F  G                    O              T  U         )Tj
+T*
+(        B  C  F  G        K     M  N  O     Q        T  U  W     Z)Tj
+T*
+(     A  B  C  F  G  I  J  K  L  M  N  O  P  Q  R  S  T  U  W  X  Z)Tj
+0 -1.1 TD
+(     4  3  1  8  6  7  0  2  9  0  6  8  4  6  3  5  6  3  4  2  0)Tj
+0 -2.2 TD
+(rAdd1 gets back null.  It is pointing at B on its level.)Tj
+T*
+(Since it got back null, it does not add an entry on its level and returns null.)Tj
+ET
+endstream
+endobj
+48 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+6 0 obj
+<<
+/Type /ExtGState
+/SA false
+/SM 0.02
+/OP false
+/op false
+/OPM 1
+/BG2 /Default
+/UCR2 /Default
+/HT /Default
+/TR2 /Default
+>>
+endobj
+49 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 753
+/CapHeight 562
+/Descent -246
+/Flags 262179
+/FontBBox [-113 -250 749 801]
+/FontName /Courier-Bold
+/ItalicAngle 0
+/StemV 133
+/XHeight 439
+/StemH 84
+>>
+endobj
+50 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 753
+/CapHeight 562
+/Descent -246
+/Flags 35
+/FontBBox [-28 -250 628 805]
+/FontName /Courier
+/ItalicAngle 0
+/StemV 51
+/XHeight 426
+/StemH 51
+>>
+endobj
+4 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 120
+/Widths [600 0 0 0 0 0 0 0 0 0 0 0 0 0 600 0 
+600 600 600 600 600 600 600 600 600 600 600 0 0 0 0 0 
+0 600 0 0 0 0 0 0 0 0 0 0 0 600 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 600 0 0 600 0 0 0 0 0 0 0 0 0 600 600 
+0 0 600 0 600 0 0 0 600 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Courier-Bold
+/FontDescriptor 49 0 R
+>>
+endobj
+5 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 146
+/Widths [600 0 600 0 0 0 0 0 600 600 600 600 600 0 600 0 
+600 600 600 600 600 600 600 600 600 600 0 0 0 0 0 0 
+0 600 600 600 0 600 600 600 0 600 600 600 600 600 600 600 
+600 600 600 600 600 600 0 600 600 0 600 0 0 0 0 0 
+0 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 0 600 600 600 600 600 600 600 600 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 600 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Courier
+/FontDescriptor 50 0 R
+>>
+endobj
+1 0 obj
+<<
+/Type /Page
+/Parent 7 0 R
+/Resources 3 0 R
+/Contents 2 0 R
+>>
+endobj
+8 0 obj
+<<
+/Type /Page
+/Parent 7 0 R
+/Resources 10 0 R
+/Contents 9 0 R
+>>
+endobj
+11 0 obj
+<<
+/Type /Page
+/Parent 7 0 R
+/Resources 13 0 R
+/Contents 12 0 R
+>>
+endobj
+14 0 obj
+<<
+/Type /Page
+/Parent 7 0 R
+/Resources 16 0 R
+/Contents 15 0 R
+>>
+endobj
+17 0 obj
+<<
+/Type /Page
+/Parent 7 0 R
+/Resources 19 0 R
+/Contents 18 0 R
+>>
+endobj
+20 0 obj
+<<
+/Type /Page
+/Parent 7 0 R
+/Resources 22 0 R
+/Contents 21 0 R
+>>
+endobj
+23 0 obj
+<<
+/Type /Page
+/Parent 7 0 R
+/Resources 25 0 R
+/Contents 24 0 R
+>>
+endobj
+26 0 obj
+<<
+/Type /Page
+/Parent 7 0 R
+/Resources 28 0 R
+/Contents 27 0 R
+>>
+endobj
+29 0 obj
+<<
+/Type /Page
+/Parent 7 0 R
+/Resources 31 0 R
+/Contents 30 0 R
+>>
+endobj
+32 0 obj
+<<
+/Type /Page
+/Parent 7 0 R
+/Resources 34 0 R
+/Contents 33 0 R
+>>
+endobj
+35 0 obj
+<<
+/Type /Page
+/Parent 39 0 R
+/Resources 37 0 R
+/Contents 36 0 R
+>>
+endobj
+40 0 obj
+<<
+/Type /Page
+/Parent 39 0 R
+/Resources 42 0 R
+/Contents 41 0 R
+>>
+endobj
+43 0 obj
+<<
+/Type /Page
+/Parent 39 0 R
+/Resources 45 0 R
+/Contents 44 0 R
+>>
+endobj
+46 0 obj
+<<
+/Type /Page
+/Parent 39 0 R
+/Resources 48 0 R
+/Contents 47 0 R
+>>
+endobj
+51 0 obj
+<<
+/S /D
+>>
+endobj
+52 0 obj
+<<
+/Nums [0 51 0 R ]
+>>
+endobj
+7 0 obj
+<<
+/Type /Pages
+/Kids [1 0 R 8 0 R 11 0 R 14 0 R 17 0 R 20 0 R 23 0 R 26 0 R 29 0 R 32 0 R]
+/Count 10
+/Parent 38 0 R
+>>
+endobj
+39 0 obj
+<<
+/Type /Pages
+/Kids [35 0 R 40 0 R 43 0 R 46 0 R]
+/Count 4
+/Parent 38 0 R
+>>
+endobj
+38 0 obj
+<<
+/Type /Pages
+/Kids [7 0 R 39 0 R ]
+/Count 14
+/MediaBox [0 0 612 792]
+>>
+endobj
+53 0 obj
+<<
+/CreationDate (D:20200320163830-04'00')
+/ModDate (D:20200320163830-04'00')
+/Producer (PSNormalizer.framework)
+>>
+endobj
+54 0 obj
+<<
+/Type /Catalog
+/Pages 38 0 R
+/PageLabels 52 0 R
+>>
+endobj
+xref
+0 55
+0000000000 65535 f 
+0000013848 00000 n 
+0000000016 00000 n 
+0000001521 00000 n 
+0000012929 00000 n 
+0000013321 00000 n 
+0000012396 00000 n 
+0000015077 00000 n 
+0000013928 00000 n 
+0000001627 00000 n 
+0000002320 00000 n 
+0000014009 00000 n 
+0000002427 00000 n 
+0000003073 00000 n 
+0000014092 00000 n 
+0000003180 00000 n 
+0000003921 00000 n 
+0000014175 00000 n 
+0000004028 00000 n 
+0000004671 00000 n 
+0000014258 00000 n 
+0000004778 00000 n 
+0000005460 00000 n 
+0000014341 00000 n 
+0000005567 00000 n 
+0000006201 00000 n 
+0000014424 00000 n 
+0000006308 00000 n 
+0000006990 00000 n 
+0000014507 00000 n 
+0000007097 00000 n 
+0000007734 00000 n 
+0000014590 00000 n 
+0000007841 00000 n 
+0000008619 00000 n 
+0000014673 00000 n 
+0000008726 00000 n 
+0000009440 00000 n 
+0000015307 00000 n 
+0000015212 00000 n 
+0000014757 00000 n 
+0000009547 00000 n 
+0000010471 00000 n 
+0000014841 00000 n 
+0000010578 00000 n 
+0000011450 00000 n 
+0000014925 00000 n 
+0000011557 00000 n 
+0000012289 00000 n 
+0000012536 00000 n 
+0000012738 00000 n 
+0000015009 00000 n 
+0000015037 00000 n 
+0000015398 00000 n 
+0000015530 00000 n 
+trailer
+<<
+/Size 55
+/Root 54 0 R
+/Info 53 0 R
+/ID [<2d789430a1a2b0be6a59f86526827028><2d789430a1a2b0be6a59f86526827028>]
+>>
+startxref
+15600
+%%EOF
+1 0 obj
+<< /Resources 3 0 R /Type /Page /Contents 2 0 R /Rotate 0 /Parent 7 0 R >>
+endobj
+8 0 obj
+<< /Resources 10 0 R /Type /Page /Contents 9 0 R /Rotate 0 /Parent 7 0 R >>
+endobj
+11 0 obj
+<< /Resources 13 0 R /Type /Page /Contents 12 0 R /Rotate 0 /Parent 7 0 R
+>>
+endobj
+14 0 obj
+<< /Resources 16 0 R /Type /Page /Contents 15 0 R /Rotate 0 /Parent 7 0 R
+>>
+endobj
+17 0 obj
+<< /Resources 19 0 R /Type /Page /Contents 18 0 R /Rotate 0 /Parent 7 0 R
+>>
+endobj
+20 0 obj
+<< /Resources 22 0 R /Type /Page /Contents 21 0 R /Rotate 0 /Parent 7 0 R
+>>
+endobj
+23 0 obj
+<< /Resources 25 0 R /Type /Page /Contents 24 0 R /Rotate 0 /Parent 7 0 R
+>>
+endobj
+26 0 obj
+<< /Resources 28 0 R /Type /Page /Contents 27 0 R /Rotate 0 /Parent 7 0 R
+>>
+endobj
+29 0 obj
+<< /Resources 31 0 R /Type /Page /Contents 30 0 R /Rotate 0 /Parent 7 0 R
+>>
+endobj
+32 0 obj
+<< /Resources 34 0 R /Type /Page /Contents 33 0 R /Rotate 0 /Parent 7 0 R
+>>
+endobj
+35 0 obj
+<< /Resources 37 0 R /Type /Page /Contents 36 0 R /Rotate 0 /Parent 39 0 R
+>>
+endobj
+40 0 obj
+<< /Resources 42 0 R /Type /Page /Contents 41 0 R /Rotate 0 /Parent 39 0 R
+>>
+endobj
+43 0 obj
+<< /Resources 45 0 R /Type /Page /Contents 44 0 R /Rotate 0 /Parent 39 0 R
+>>
+endobj
+46 0 obj
+<< /Resources 48 0 R /Type /Page /Contents 47 0 R /Rotate 0 /Parent 39 0 R
+>>
+endobj
+53 0 obj
+<< /ModDate (D:20200320204006Z00'00') /Producer (macOS Version 10.15.3 \(Build 19D76\) Quartz PDFContext, AppendMode 1.1)
+/CreationDate (D:20200320163830-04'00') >>
+endobj
+xref
+0 2
+0000000000 65535 f 
+0000016856 00000 n 
+8 1
+0000016946 00000 n 
+11 1
+0000017037 00000 n 
+14 1
+0000017130 00000 n 
+17 1
+0000017223 00000 n 
+20 1
+0000017316 00000 n 
+23 1
+0000017409 00000 n 
+26 1
+0000017502 00000 n 
+29 1
+0000017595 00000 n 
+32 1
+0000017688 00000 n 
+35 1
+0000017781 00000 n 
+40 1
+0000017875 00000 n 
+43 1
+0000017969 00000 n 
+46 1
+0000018063 00000 n 
+53 1
+0000018157 00000 n 
+trailer
+<< /ID [<2D789430A1A2B0BE6A59F86526827028><D84FDAE3B41F18CCE25A94FAB53E7569> ] /Root 54 0 R /Size 55 /Prev 15600 /Info 53 0 R >> 
+startxref
+18338
+%%EOF

@@ -1,0 +1,78 @@
+1. Implement the missing part of the add method in DLLMap.  Read the
+   Javadoc.  It is the same idea as add in prog02.SortedDLLPD.  Follow
+   the directions.  I have handled updating first and last for you.
+   Do not read or write these variables in your part of the exercise.
+   Output should look like step01.txt.
+
+
+2. Implement the missing part of the find method in DLLMap.  Read the
+   Javadoc.  Write a while loop that moves nearest forward if it less
+   than the key but don't let nearest be set to null.  Ditto backward.
+   See step02.txt.
+
+
+3. The documentation for containsKey and get are online for java Map.
+   Ask questions about containsKey, and make sure you understand
+   it--well enough to implement it on a quiz!  Now fill in the missing
+   part of get.  It is just a little bit more complicated because it
+   returns getValue() instead of just true or false.  See step03a.txt.
+
+   Change find(first, key) to find(last, key) in get.  See step03b.txt.
+
+
+4. Fix put.  It's like get but with setValue.  See step04.txt.
+
+
+IF YOU HAVE TIME DURING LAB -- OTHERWISE PLEASE DO THIS BEFORE THE QUIZ
+
+5. Finish Jumble.java.  There are two exercises.  Verify that you
+   cannot unscramble zagboe using word but you can using dict.
+
+   Switch from using TreeMap to BST (from prog07).  If you did not do
+   BST, then just trust me that it takes a couple of minutes to read
+   in dict.  If you did, try it.  The tree is not well balanced.
+
+   Switch to using DLLMap.  Even words should take a little while.
+   Try reading in dict.  Depending on your computer, it may take an
+   hour.  (You can click the read square!)
+
+   So TreeMap is much faster than BST which is much faster than DLLMap.
+
+
+HOMEWORK
+
+6. Implement the two remove methods.  See step06.txt.
+
+
+7. Run SkipMap.  See step07a.txt.  Following the class notes and the
+   instructions in rFind (recursive find).  See step07b.txt.
+
+
+8. Implement get.  Where should you look for help?  (How did you learn
+   how to do DLLMap get?)  See step08.txt.
+
+
+9. Implement rAdd and the part of put labeled EXERCISE 8.  See
+   step09.txt.  What is happening is that the initial SkipMap is using
+   every other, but entries added after that use coin tosses.
+
+
+10. However, it is never adding new lists on top.  Do the part of put
+   labeled EXERCISE 9.  See step10a.txt.
+
+   Change top==null on the first line of put to false.  See step10b.txt.
+
+   Switch to SkipMap in Jumble.  It should run as fast on dict as
+   TreeMap does.
+
+
+EXTRA CREDIT
+
+If you scored less than 50 on a previous homework, you can score an
+addition 50 points as follows.
+
+11. Implement both the public Map remove method and the private
+    recursive remove method.  It has to run in O(log n) expected time.
+    Don't forget to handle the case that top has the key!
+
+

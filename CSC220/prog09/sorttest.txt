@@ -1,0 +1,65 @@
+Note: prog09/SortTest.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+prog09.InsertionSort@24d46ca6 on array of length 10
+11.967 microseconds with constant 0.11
+0 8 9 7 5 3 1 1 9 4 
+0 1 1 3 4 5 7 8 9 9 
+prog09.InsertionSort@24d46ca6 on array of length 1000
+7674.339 microseconds with constant 0.007674
+prog09.InsertionSort@24d46ca6 on array of length 1000
+4853.805 microseconds with constant 0.004853
+prog09.InsertionSort@24d46ca6 on array of length 1000
+10023.397 microseconds with constant 0.010023
+prog09.InsertionSort@24d46ca6 on array of length 10000
+131301.111 microseconds with constant 0.00131301
+prog09.InsertionSort@24d46ca6 on array of length 100000
+1.519441618E7 microseconds with constant 0.010775681690930468
+
+prog09.HeapSort@3a71f4dd on array of length 10
+34.39 microseconds with constant 1.476601238471056
+0 8 9 7 5 3 1 1 9 4 
+0 1 1 3 4 5 7 8 9 9 
+prog09.HeapSort@3a71f4dd on array of length 100000
+84717.233 microseconds with constant 0.07358425124679556
+prog09.HeapSort@3a71f4dd on array of length 100000
+39839.464 microseconds with constant 0.0346037157290873
+prog09.HeapSort@3a71f4dd on array of length 100000
+36696.967 microseconds with constant 0.03187374061584346
+prog09.HeapSort@3a71f4dd on array of length 1000000
+1067914.241 microseconds with constant 0.07729819289120489
+prog09.HeapSort@3a71f4dd on array of length 10000000
+1.9133529824E7 microseconds with constant 0.1187083723433692
+
+prog09.QuickSort@85ede7b on array of length 10
+28.831 microseconds with constant 0.28
+0 8 9 7 5 3 1 1 9 4 
+0 1 1 3 4 5 7 8 9 9 
+prog09.QuickSort@85ede7b on array of length 100000
+83450.97 microseconds with constant 5.918165180604161E-5
+prog09.QuickSort@85ede7b on array of length 100000
+61750.153 microseconds with constant 4.3792294775591005E-5
+prog09.QuickSort@85ede7b on array of length 100000
+38583.655 microseconds with constant 2.7362560474925145E-5
+prog09.QuickSort@85ede7b on array of length 1000000
+395907.536 microseconds with constant -5.44291865898622E-4
+prog09.QuickSort@85ede7b on array of length 10000000
+6555368.411 microseconds with constant 0.023712908798450186
+
+Negative constant.  -10
+
+prog09.MergeSort@63961c42 on array of length 10
+27.477 microseconds with constant 1.1725951011387796
+0 8 9 7 5 3 1 1 9 4 
+0 1 1 3 4 5 7 8 9 9 
+prog09.MergeSort@63961c42 on array of length 100000
+56846.021 microseconds with constant 0.0493758082365445
+prog09.MergeSort@63961c42 on array of length 100000
+127889.564 microseconds with constant 0.11108297399224994
+prog09.MergeSort@63961c42 on array of length 100000
+26415.44 microseconds with constant 0.022943777478948792
+prog09.MergeSort@63961c42 on array of length 1000000
+435877.362 microseconds with constant 0.031549829314757284
+prog09.MergeSort@63961c42 on array of length 10000000
+6747378.019 microseconds with constant 0.04186212903879142
+
+SCORE 50/60

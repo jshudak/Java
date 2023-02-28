@@ -1,0 +1,44 @@
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+sendMessage("Current word: fail
+End word: pass")
+getInfo("What is your next word:" returns "pass".
+sendMessage("pass is more than 1 letter off from fail
+               Please try again.")
+sendMessage("Current word: fail
+End word: pass")
+getInfo("What is your next word:" returns null.
+5 points:  Should have rejected pass because more than one letter changed.
+
+sendMessage("Current word: fail
+End word: pass")
+getInfo("What is your next word:" returns "fasl".
+sendMessage("fasl does not exist in the Dictionary.")
+sendMessage("Current word: fail
+End word: pass")
+getInfo("What is your next word:" returns null.
+10 points:  Should have rejected fasl as not a real word.
+
+sendMessage("Current word: fail
+End word: pass")
+getInfo("What is your next word:" returns "fall".
+sendMessage("Current word: fall
+End word: pass")
+getInfo("What is your next word:" returns "pall".
+sendMessage("Current word: pall
+End word: pass")
+getInfo("What is your next word:" returns "pals".
+sendMessage("Current word: pals
+End word: pass")
+getInfo("What is your next word:" returns "pass".
+sendMessage("You win!!")
+10 points:  Should have let me win.
+
+sendMessage("Result found:
+fail
+fall
+pall
+pals
+pass
+")
+20 points:  Should have gotten from fail to pass in 4 steps.

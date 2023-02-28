@@ -1,0 +1,28 @@
+                            Hal 
+            Boo             Hal             Kit 
+    Ari     Boo     Eve     Hal     Joe     Kit     Sam 
+Abe Ari Bob Boo Doc Eve Guy Hal Hen Joe Kat Kit Pam Sam Zoe 
+  4  12   1   5  13   6  15   3  14  11   9   8  10   7   0 
+
+containsKey(Aaa) = false
+get(Aaa) = null
+containsKey(Abe) = true
+get(Abe) = null
+containsKey(Guy) = true
+get(Guy) = null
+containsKey(Hal) = true
+get(Hal) = null
+containsKey(Joe) = true
+get(Joe) = null
+containsKey(Mxy) = false
+get(Mxy) = null
+containsKey(Zoe) = true
+get(Zoe) = null
+containsKey(Zzz) = false
+get(Zzz) = null
+                            Hal 
+            Boo             Hal             Kit 
+    Ari     Boo     Eve     Hal     Joe     Kit     Sam 
+Abe Ari Bob Boo Doc Eve Guy Hal Hen Joe Kat Kit Pam Sam Zoe 
+  4  12   1   5  13   6  15   3  14  11   9   8  10   7   0 
+

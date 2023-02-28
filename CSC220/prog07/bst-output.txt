@@ -1,0 +1,167 @@
+put(n, 0)
+n
+0
+
+put(o, 1)
+ n 
+ 0 
+  o
+  1
+
+put(b, 2)
+ n 
+ 0 
+b o
+2 1
+
+put(a, 3)
+   n   
+   0   
+ b   o 
+ 2   1 
+a      
+3      
+
+put(l, 4)
+   n   
+   0   
+ b   o 
+ 2   1 
+a l    
+3 4    
+
+put(a, 5)
+   n   
+   0   
+ b   o 
+ 2   1 
+a l    
+5 4    
+
+put(n, 6)
+   n   
+   6   
+ b   o 
+ 2   1 
+a l    
+5 4    
+
+put(c, 7)
+       n       
+       6       
+   b       o   
+   2       1   
+ a   l         
+ 5   4         
+    c          
+    7          
+
+put(e, 8)
+               n               
+               6               
+       b               o       
+       2               1       
+   a       l                   
+   5       4                   
+         c                     
+         7                     
+          e                    
+          8                    
+
+put(d, 9)
+                               n                               
+                               6                               
+               b                               o               
+               2                               1               
+       a               l                                       
+       5               4                                       
+                   c                                           
+                   7                                           
+                     e                                         
+                     8                                         
+                    d                                          
+                    9                                          
+
+remove(n) returns 6
+               l               
+               4               
+       b               o       
+       2               1       
+   a       c                   
+   5       7                   
+             e                 
+             8                 
+            d                  
+            9                  
+
+remove(o) returns 1
+               l               
+               4               
+       b                       
+       2                       
+   a       c                   
+   5       7                   
+             e                 
+             8                 
+            d                  
+            9                  
+
+remove(b) returns 2
+               l               
+               4               
+       a                       
+       5                       
+           c                   
+           7                   
+             e                 
+             8                 
+            d                  
+            9                  
+
+remove(a) returns 5
+       l       
+       4       
+   c           
+   7           
+     e         
+     8         
+    d          
+    9          
+
+remove(l) returns 4
+   c   
+   7   
+     e 
+     8 
+    d  
+    9  
+
+remove(a) returns null
+   c   
+   7   
+     e 
+     8 
+    d  
+    9  
+
+remove(n) returns null
+   c   
+   7   
+     e 
+     8 
+    d  
+    9  
+
+remove(c) returns 7
+ e 
+ 8 
+d  
+9  
+
+remove(e) returns 8
+d
+9
+
+remove(d) returns 9
+
+

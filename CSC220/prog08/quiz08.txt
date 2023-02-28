@@ -1,0 +1,116 @@
+FINISHED SCORE: 9/10
+
+
+0. When the Jumble solver reads the word "computer" from the
+   dictionary, what key and value does it use to store it in its Map?
+
+
+	KEY = "cemoprtu"
+
+
+
+	VALUE = "computer"
+
+
+
+1. When the Jumble solver is asked to unscramble "ewting", what key
+   does it look up in the Map?
+
+	"egintw"
+
+
+2. DLLMap uses a sorted linked list with first and last pointing to
+   the first and last node.  If key is not present,
+   DLLMap.find(startAt,key) returns a neighboring key no matter where
+   startAt is the list.  If "Ann" and "Zoe" are first and last and
+   startAt is Moe, which entries DLLMap.find(startAt,"Aaron") and
+   DLLMap.(startAt,"Zora") return?
+
+
+	DLLMap.find(startAt,"Aaron") returns "Ann"
+
+
+	DLLMap.find(startAt,"Zora") returns "Zoe"
+
+
+3. Suppose the Jumble solver uses DLLMap for its Map.  What is the O()
+   to store one new word into the Map?  What is the O() to store all n
+   words in the file into the Map?
+
+
+	For one word, O(1)    -1/2  >>  linked list, everything is O(n)
+
+
+	For a whole file, O(n) -1/2 >>  O(n) for n items is O(n*n), or O(n^2)
+
+
+
+5. A SkipMap has extra "skip" lists.  A key which "flips heads" gets
+   into the first skip list.  If it flips head again, it gets into the
+   second skip list, and so on.  About how many skip lists do you
+   expect a SkipMap with 1000 entries to have?  Why?
+
+
+
+
+	log  1000 = 10
+	   2
+
+
+
+
+4. Pick up a coin and start flipping it.  Stop when you get the first
+   heads.  How many tails do you expect to flip (flip on average)
+   before you flip that heads?
+
+
+
+	1
+
+
+
+
+
+
+6. When searching for a key in a SkipMap, why do you never move past
+   an entry in the third skip list if that key also appears in the
+   next higher (fourth) skip list?
+
+
+	The find method would have already passed gone
+	past the entry in its previous recursive run
+	if it needed to. It contains itself between two
+	letters so this does not happen.
+
+
+
+
+
+7. When searching for an key in a SkipMap, how many nodes do you
+   expect to move past in the third skip list?  Why?
+
+
+	You expect to only move only 1 time at any
+	list level in Skip List.
+
+
+
+
+
+8. Suppose the Jumble solver uses SkipMap for its Map.  What is the
+   (expected) O() to store one new word into the Map?  What is the
+   expected O() to store all n words in the file into the Map?
+
+
+	storing one word takes O(log n) time
+	
+
+	storing all n words takes O(n logn) time
+
+
+
+9. How much more space than DLLMap do you expect SkipMap to use?  Why?
+
+	twice as much space because n/2 + n/4 + n/8... = n, which
+	means its storing the equivilant of two lists
+	(1 bottom list + 1 total storage from skipped lists)

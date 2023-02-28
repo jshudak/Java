@@ -1,0 +1,830 @@
+%PDF-1.3
+%‚„œ”
+2 0 obj
+<<
+/Length 796
+>>
+stream
+BT
+/TT2 1 Tf
+10 0 0 10 43 756.3333 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+[(put.txt)-4500(Fri Mar 20 16:36:10 2020)-4500(1)]TJ
+/TT4 1 Tf
+0 -1.6333 TD
+(put will do one of three possible actions:)Tj
+0 -1.1 TD
+(1. update the value of an existing entry;)Tj
+T*
+(2. add a new entry but not change top;)Tj
+T*
+(3. add a new entry and change top and possibly add new levels.)Tj
+0 -2.2 TD
+(        B                          O             @T            )Tj
+T*
+(        B     F  G                 O              T  U         )Tj
+T*
+(        B  C  F  G        K     M  O     Q        T  U  W     Z)Tj
+T*
+(     A  B  C  F  G  I  J  K  L  M  O  P  Q  R  S  T  U  W  X  Z)Tj
+0 -1.1 TD
+(     4  3  1  8  6  7  0  2  9  0  8  4  6  3  5  6  3  4  2  0)Tj
+0 -2.2 TD
+(Remember any entry in the top level list could be top.)Tj
+ET
+endstream
+endobj
+3 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+9 0 obj
+<<
+/Length 590
+>>
+stream
+BT
+/TT2 1 Tf
+10 0 0 10 43 756.3333 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+[(put.txt)-4500(Fri Mar 20 16:36:10 2020)-4500(2)]TJ
+/TT4 1 Tf
+0 -2.7333 TD
+(        B                          O             @T            )Tj
+0 -2.2 TD
+(        B     F  G                 O              T  U         )Tj
+T*
+(        B  C  F  G        K     M  O     Q        T  U  W     Z)Tj
+T*
+(     A  B  C  F  G  I  J *K  L  M  O  P  Q  R  S  T  U  W  X  Z)Tj
+0 -1.1 TD
+(     4  3  1  8  6  7  0  2  9  0  8  4  6  3  5  6  3  4  2  0)Tj
+0 -2.2 TD
+(1. put\(K, 3\) calls rFind\(@, K\) and gets back a bottom entry \(*\).)Tj
+ET
+endstream
+endobj
+10 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+12 0 obj
+<<
+/Length 550
+>>
+stream
+BT
+/TT2 1 Tf
+10 0 0 10 43 756.3333 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+[(put.txt)-4500(Fri Mar 20 16:36:10 2020)-4500(3)]TJ
+/TT4 1 Tf
+0 -2.7333 TD
+(        B                          O             @T            )Tj
+0 -2.2 TD
+(        B     F  G                 O              T  U         )Tj
+T*
+(        B  C  F  G        K     M  O     Q        T  U  W     Z)Tj
+T*
+(     A  B  C  F  G  I  J *K  L  M  O  P  Q  R  S  T  U  W  X  Z)Tj
+0 -1.1 TD
+(     4  3  1  8  6  7  0  3  9  0  8  4  6  3  5  6  3  4  2  0)Tj
+0 -2.2 TD
+(1. put\(K, 3\) sets its value.)Tj
+ET
+endstream
+endobj
+13 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+15 0 obj
+<<
+/Length 574
+>>
+stream
+BT
+/TT2 1 Tf
+10 0 0 10 43 756.3333 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+[(put.txt)-4500(Fri Mar 20 16:36:10 2020)-4500(4)]TJ
+/TT4 1 Tf
+0 -2.7333 TD
+(        B                          O             @T            )Tj
+0 -2.2 TD
+(        B     F  G                 O              T  U         )Tj
+T*
+(        B  C  F  G        K     M  O     Q        T  U  W     Z)Tj
+T*
+(     A  B  C  F  G  I  J  K  L  M  O  P  Q  R  S  T  U  W  X  Z)Tj
+0 -1.1 TD
+(     4  3  1  8  6  7  0  3  9  0  8  4  6  3  5  6  3  4  2  0)Tj
+0 -2.2 TD
+(2. put\(N, 6\) calls rFind\(*, N\) and gets back null.)Tj
+ET
+endstream
+endobj
+16 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+18 0 obj
+<<
+/Length 664
+>>
+stream
+BT
+/TT2 1 Tf
+10 0 0 10 43 756.3333 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+[(put.txt)-4500(Fri Mar 20 16:36:10 2020)-4500(5)]TJ
+/TT4 1 Tf
+0 -2.7333 TD
+(        B                             O             @T            )Tj
+0 -2.2 TD
+(        B     F  G                    O              T  U         )Tj
+T*
+(        B  C  F  G        K     M  N  O     Q        T  U  W     Z)Tj
+T*
+(     A  B  C  F  G  I  J  K  L  M  N  O  P  Q  R  S  T  U  W  X  Z)Tj
+0 -1.1 TD
+(     4  3  1  8  6  7  0  2  9  0  6  8  4  6  3  5  6  3  4  2  0)Tj
+0 -2.2 TD
+(2. put\(N, 6\) calls rAdd\(*, N, 6\) and gets back null because N did not)Tj
+0 -1.1 TD
+(   three heads in a row \(see rAdd.pdf\).)Tj
+ET
+endstream
+endobj
+19 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+21 0 obj
+<<
+/Length 589
+>>
+stream
+BT
+/TT2 1 Tf
+10 0 0 10 43 756.3333 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+[(put.txt)-4500(Fri Mar 20 16:36:10 2020)-4500(6)]TJ
+/TT4 1 Tf
+0 -2.7333 TD
+(        B                             O             @T            )Tj
+0 -2.2 TD
+(        B     F  G                    O              T  U         )Tj
+T*
+(        B  C  F  G        K     M  N  O     Q        T  U  W     Z)Tj
+T*
+(     A  B  C  F  G  I  J  K  L  M  N  O  P  Q  R  S  T  U  W  X  Z)Tj
+0 -1.1 TD
+(     4  3  1  8  6  7  0  2  9  0  6  8  4  6  3  5  6  3  4  2  0)Tj
+0 -2.2 TD
+(3. put\(D, 7\) calls rFind\(*, D\) and gets back null.)Tj
+ET
+endstream
+endobj
+22 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+24 0 obj
+<<
+/Length 687
+>>
+stream
+BT
+/TT2 1 Tf
+10 0 0 10 43 756.3333 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+[(put.txt)-4500(Fri Mar 20 16:36:10 2020)-4500(7)]TJ
+/TT4 1 Tf
+0 -2.7333 TD
+(        B    +D                          O             @T            )Tj
+0 -2.2 TD
+(        B     D  F  G                    O              T  U         )Tj
+T*
+(        B  C  D  F  G        K     M  N  O     Q        T  U  W     Z)Tj
+T*
+(     A  B  C  D  F  G  I  J  K  L  M  N  O  P  Q  R  S  T  U  W  X  Z)Tj
+0 -1.1 TD
+(     4  3  1  7  8  6  7  0  2  9  0  6  8  4  6  3  5  6  3  4  2  0)Tj
+0 -2.2 TD
+(3. put\(D, 7\) calls rAdd\(*, D, 7\) and gets back a new Entry \(+\) because)Tj
+0 -1.1 TD
+(   D was lucky and threw three heads in a row.)Tj
+ET
+endstream
+endobj
+25 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+27 0 obj
+<<
+/Length 623
+>>
+stream
+BT
+/TT2 1 Tf
+10 0 0 10 43 756.3333 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+[(put.txt)-4500(Fri Mar 20 16:36:10 2020)-4500(8)]TJ
+/TT4 1 Tf
+0 -2.7333 TD
+(        B    @D                          O              T            )Tj
+0 -2.2 TD
+(        B     D  F  G                    O              T  U         )Tj
+T*
+(        B  C  D  F  G        K     M  N  O     Q        T  U  W     Z)Tj
+T*
+(     A  B  C  D  F  G  I  J  K  L  M  N  O  P  Q  R  S  T  U  W  X  Z)Tj
+0 -1.1 TD
+(     4  3  1  7  8  6  7  0  2  9  0  6  8  4  6  3  5  6  3  4  2  0)Tj
+0 -2.2 TD
+(3. put\(D, 7\) makes this new Entry the top.  put starts flipping a coin.)Tj
+ET
+endstream
+endobj
+28 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+30 0 obj
+<<
+/Length 704
+>>
+stream
+BT
+/TT2 1 Tf
+10 0 0 10 43 756.3333 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+[(put.txt)-4500(Fri Mar 20 16:36:10 2020)-4500(9)]TJ
+/TT4 1 Tf
+0 -2.7333 TD
+(             @D)Tj
+0 -2.2 TD
+(        B     D                          O              T            )Tj
+T*
+(        B     D  F  G                    O              T  U         )Tj
+T*
+(        B  C  D  F  G        K     M  N  O     Q        T  U  W     Z)Tj
+T*
+(     A  B  C  D  F  G  I  J  K  L  M  N  O  P  Q  R  S  T  U  W  X  Z)Tj
+0 -1.1 TD
+(     4  3  1  7  8  6  7  0  2  9  0  6  8  4  6  3  5  6  3  4  2  0)Tj
+0 -2.2 TD
+(3. put\(D, 7\) flips heads, so it creates a new Entry whose value is the old top and)Tj
+0 -1.1 TD
+(   makes that Entry the new top.)Tj
+ET
+endstream
+endobj
+31 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+33 0 obj
+<<
+/Length 729
+>>
+stream
+BT
+/TT2 1 Tf
+10 0 0 10 43 756.3333 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+[(put.txt)-4500(Fri Mar 20 16:36:10 2020)-4500(10)]TJ
+/TT4 1 Tf
+0 -2.7333 TD
+(             @D)Tj
+0 -2.2 TD
+(              D)Tj
+T*
+(        B     D                          O              T            )Tj
+T*
+(        B     D  F  G                    O              T  U         )Tj
+T*
+(        B  C  D  F  G        K     M  N  O     Q        T  U  W     Z)Tj
+T*
+(     A  B  C  D  F  G  I  J  K  L  M  N  O  P  Q  R  S  T  U  W  X  Z)Tj
+0 -1.1 TD
+(     4  3  1  7  8  6  7  0  2  9  0  6  8  4  6  3  5  6  3  4  2  0)Tj
+0 -2.2 TD
+(3. put\(D, 7\) flips heads, so it creates a new Entry whose value is the old top a nd)Tj
+0 -1.1 TD
+(   makes that Entry the new top.)Tj
+ET
+endstream
+endobj
+34 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+36 0 obj
+<<
+/Length 652
+>>
+stream
+BT
+/TT2 1 Tf
+10 0 0 10 43 756.3333 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+[(put.txt)-4500(Fri Mar 20 16:36:10 2020)-4500(11)]TJ
+/TT4 1 Tf
+0 -2.7333 TD
+(             @D)Tj
+0 -2.2 TD
+(              D)Tj
+T*
+(        B     D                          O              T            )Tj
+T*
+(        B     D  F  G                    O              T  U         )Tj
+T*
+(        B  C  D  F  G        K     M  N  O     Q        T  U  W     Z)Tj
+T*
+(     A  B  C  D  F  G  I  J  K  L  M  N  O  P  Q  R  S  T  U  W  X  Z)Tj
+0 -1.1 TD
+(     4  3  1  7  8  6  7  0  2  9  0  6  8  4  6  3  5  6  3  4  2  0)Tj
+0 -2.2 TD
+(3. Dís luck finally runs out:  put\(D, 7\) flips tails.)Tj
+ET
+endstream
+endobj
+37 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+6 0 obj
+<<
+/Type /ExtGState
+/SA false
+/SM 0.02
+/OP false
+/op false
+/OPM 1
+/BG2 /Default
+/UCR2 /Default
+/HT /Default
+/TR2 /Default
+>>
+endobj
+40 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 753
+/CapHeight 562
+/Descent -246
+/Flags 262179
+/FontBBox [-113 -250 749 801]
+/FontName /Courier-Bold
+/ItalicAngle 0
+/StemV 133
+/XHeight 439
+/StemH 84
+>>
+endobj
+41 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 753
+/CapHeight 562
+/Descent -246
+/Flags 35
+/FontBBox [-28 -250 628 805]
+/FontName /Courier
+/ItalicAngle 0
+/StemV 51
+/XHeight 426
+/StemH 51
+>>
+endobj
+4 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 120
+/Widths [600 0 0 0 0 0 0 0 0 0 0 0 0 0 600 0 
+600 600 600 600 600 600 600 600 600 600 600 0 0 0 0 0 
+0 0 0 0 0 0 600 0 0 0 0 0 0 600 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 600 0 0 0 0 0 0 0 600 0 0 0 0 0 0 
+600 0 600 0 600 600 0 0 600 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Courier-Bold
+/FontDescriptor 40 0 R
+>>
+endobj
+5 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 146
+/Widths [600 0 0 0 0 0 0 0 600 600 600 600 600 0 600 0 
+600 600 600 600 600 600 600 600 600 600 600 600 0 0 0 0 
+600 600 600 600 600 600 600 600 0 600 600 600 600 600 600 600 
+600 600 600 600 600 600 0 600 600 0 600 0 0 0 0 0 
+0 600 600 600 600 600 600 600 600 600 0 600 600 600 600 600 
+600 0 600 600 600 600 600 600 600 600 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 600 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Courier
+/FontDescriptor 41 0 R
+>>
+endobj
+1 0 obj
+<<
+/Type /Page
+/Parent 7 0 R
+/Resources 3 0 R
+/Contents 2 0 R
+>>
+endobj
+8 0 obj
+<<
+/Type /Page
+/Parent 7 0 R
+/Resources 10 0 R
+/Contents 9 0 R
+>>
+endobj
+11 0 obj
+<<
+/Type /Page
+/Parent 7 0 R
+/Resources 13 0 R
+/Contents 12 0 R
+>>
+endobj
+14 0 obj
+<<
+/Type /Page
+/Parent 7 0 R
+/Resources 16 0 R
+/Contents 15 0 R
+>>
+endobj
+17 0 obj
+<<
+/Type /Page
+/Parent 7 0 R
+/Resources 19 0 R
+/Contents 18 0 R
+>>
+endobj
+20 0 obj
+<<
+/Type /Page
+/Parent 7 0 R
+/Resources 22 0 R
+/Contents 21 0 R
+>>
+endobj
+23 0 obj
+<<
+/Type /Page
+/Parent 7 0 R
+/Resources 25 0 R
+/Contents 24 0 R
+>>
+endobj
+26 0 obj
+<<
+/Type /Page
+/Parent 7 0 R
+/Resources 28 0 R
+/Contents 27 0 R
+>>
+endobj
+29 0 obj
+<<
+/Type /Page
+/Parent 7 0 R
+/Resources 31 0 R
+/Contents 30 0 R
+>>
+endobj
+32 0 obj
+<<
+/Type /Page
+/Parent 7 0 R
+/Resources 34 0 R
+/Contents 33 0 R
+>>
+endobj
+35 0 obj
+<<
+/Type /Page
+/Parent 39 0 R
+/Resources 37 0 R
+/Contents 36 0 R
+>>
+endobj
+42 0 obj
+<<
+/S /D
+>>
+endobj
+43 0 obj
+<<
+/Nums [0 42 0 R ]
+>>
+endobj
+7 0 obj
+<<
+/Type /Pages
+/Kids [1 0 R 8 0 R 11 0 R 14 0 R 17 0 R 20 0 R 23 0 R 26 0 R 29 0 R 32 0 R]
+/Count 10
+/Parent 38 0 R
+>>
+endobj
+39 0 obj
+<<
+/Type /Pages
+/Kids [35 0 R]
+/Count 1
+/Parent 38 0 R
+>>
+endobj
+38 0 obj
+<<
+/Type /Pages
+/Kids [7 0 R 39 0 R ]
+/Count 11
+/MediaBox [0 0 612 792]
+>>
+endobj
+44 0 obj
+<<
+/CreationDate (D:20200320163639-04'00')
+/ModDate (D:20200320163639-04'00')
+/Producer (PSNormalizer.framework)
+>>
+endobj
+45 0 obj
+<<
+/Type /Catalog
+/Pages 38 0 R
+/PageLabels 43 0 R
+>>
+endobj
+xref
+0 46
+0000000000 65535 f 
+0000010376 00000 n 
+0000000016 00000 n 
+0000000863 00000 n 
+0000009453 00000 n 
+0000009845 00000 n 
+0000008920 00000 n 
+0000011353 00000 n 
+0000010456 00000 n 
+0000000969 00000 n 
+0000001610 00000 n 
+0000010537 00000 n 
+0000001717 00000 n 
+0000002319 00000 n 
+0000010620 00000 n 
+0000002426 00000 n 
+0000003052 00000 n 
+0000010703 00000 n 
+0000003159 00000 n 
+0000003875 00000 n 
+0000010786 00000 n 
+0000003982 00000 n 
+0000004623 00000 n 
+0000010869 00000 n 
+0000004730 00000 n 
+0000005469 00000 n 
+0000010952 00000 n 
+0000005576 00000 n 
+0000006251 00000 n 
+0000011035 00000 n 
+0000006358 00000 n 
+0000007114 00000 n 
+0000011118 00000 n 
+0000007221 00000 n 
+0000008002 00000 n 
+0000011201 00000 n 
+0000008109 00000 n 
+0000008813 00000 n 
+0000011562 00000 n 
+0000011488 00000 n 
+0000009060 00000 n 
+0000009262 00000 n 
+0000011285 00000 n 
+0000011313 00000 n 
+0000011653 00000 n 
+0000011785 00000 n 
+trailer
+<<
+/Size 46
+/Root 45 0 R
+/Info 44 0 R
+/ID [<02354f5a46c1a0e627f4464d3934a182><02354f5a46c1a0e627f4464d3934a182>]
+>>
+startxref
+11855
+%%EOF
+1 0 obj
+<< /Resources 3 0 R /Type /Page /Contents 2 0 R /Rotate 0 /Parent 7 0 R >>
+endobj
+8 0 obj
+<< /Resources 10 0 R /Type /Page /Contents 9 0 R /Rotate 0 /Parent 7 0 R >>
+endobj
+11 0 obj
+<< /Resources 13 0 R /Type /Page /Contents 12 0 R /Rotate 0 /Parent 7 0 R
+>>
+endobj
+14 0 obj
+<< /Resources 16 0 R /Type /Page /Contents 15 0 R /Rotate 0 /Parent 7 0 R
+>>
+endobj
+17 0 obj
+<< /Resources 19 0 R /Type /Page /Contents 18 0 R /Rotate 0 /Parent 7 0 R
+>>
+endobj
+20 0 obj
+<< /Resources 22 0 R /Type /Page /Contents 21 0 R /Rotate 0 /Parent 7 0 R
+>>
+endobj
+23 0 obj
+<< /Resources 25 0 R /Type /Page /Contents 24 0 R /Rotate 0 /Parent 7 0 R
+>>
+endobj
+26 0 obj
+<< /Resources 28 0 R /Type /Page /Contents 27 0 R /Rotate 0 /Parent 7 0 R
+>>
+endobj
+29 0 obj
+<< /Resources 31 0 R /Type /Page /Contents 30 0 R /Rotate 0 /Parent 7 0 R
+>>
+endobj
+32 0 obj
+<< /Resources 34 0 R /Type /Page /Contents 33 0 R /Rotate 0 /Parent 7 0 R
+>>
+endobj
+35 0 obj
+<< /Resources 37 0 R /Type /Page /Contents 36 0 R /Rotate 0 /Parent 39 0 R
+>>
+endobj
+44 0 obj
+<< /ModDate (D:20200320203645Z00'00') /Producer (macOS Version 10.15.3 \(Build 19D76\) Quartz PDFContext, AppendMode 1.1)
+/CreationDate (D:20200320163639-04'00') >>
+endobj
+xref
+0 2
+0000000000 65535 f 
+0000012931 00000 n 
+8 1
+0000013021 00000 n 
+11 1
+0000013112 00000 n 
+14 1
+0000013205 00000 n 
+17 1
+0000013298 00000 n 
+20 1
+0000013391 00000 n 
+23 1
+0000013484 00000 n 
+26 1
+0000013577 00000 n 
+29 1
+0000013670 00000 n 
+32 1
+0000013763 00000 n 
+35 1
+0000013856 00000 n 
+44 1
+0000013950 00000 n 
+trailer
+<< /ID [<02354F5A46C1A0E627F4464D3934A182><2F7F5EC826E5F5AFFFACC709E1EA824F> ] /Root 45 0 R /Size 46 /Prev 11855 /Info 44 0 R >> 
+startxref
+14131
+%%EOF

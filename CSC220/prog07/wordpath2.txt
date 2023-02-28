@@ -1,0 +1,26 @@
+Note: prog07/WordPath.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+What word file should I reference 
+words
+Type starting word: 
+snow
+Type ending word: 
+rain
+Select 0: Human plays.
+Select 1: Computer plays.
+Select 2: Solve2 plays.
+Select 3: Solve3 plays
+2
+Result found:
+snow
+show
+shop
+ship
+slip
+slid
+said
+raid
+rain
+ in 117 searches.
+
+SCORE: 15/15

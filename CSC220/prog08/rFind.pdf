@@ -1,0 +1,936 @@
+%PDF-1.3
+%‚„œ”
+2 0 obj
+<<
+/Length 1051
+>>
+stream
+BT
+/TT2 1 Tf
+10 0 0 10 43 756.3333 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+[(rFind.txt)-4500(Thu Mar 19 14:43:48 2020)-4500(1)]TJ
+/TT4 1 Tf
+0 -1.6333 TD
+(        B                          O             @T            )Tj
+0 -2.2 TD
+(        B     F  G                 O              T  U         )Tj
+T*
+(        B  C  F  G        K     M  O     Q        T  U  W     Z)Tj
+T*
+(     A  B  C  F  G  I  J  K  L  M  O  P  Q  R  S  T  U  W  X  Z)Tj
+0 -1.1 TD
+(     4  3  1  8  6  7  0  2  9  0  8  4  6  3  5  6  3  4  2  0)Tj
+0 -2.2 TD
+(SkipMap rFind \(recursive find\) is called with the "top" element \(@\), which can be)Tj
+0 -1.1 TD
+(any entry in the top list.)Tj
+0 -2.2 TD
+(It returns the entry in the bottom list with the key, if it is there, or null, if it)Tj
+0 -1.1 TD
+(isnít.)Tj
+0 -2.2 TD
+(I will name the methods rFind1, rFind2, rFind3, rFind4.  rFind1 is the first call.)Tj
+0 -1.1 TD
+(It calls rFind2 recursively and so forth.  They are all actually named rFind, but)Tj
+T*
+(the numbering will help you understand which call we are talking about \(I hope\).)Tj
+ET
+endstream
+endobj
+3 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+9 0 obj
+<<
+/Length 576
+>>
+stream
+BT
+/TT2 1 Tf
+10 0 0 10 43 756.3333 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+[(rFind.txt)-4500(Thu Mar 19 14:43:48 2020)-4500(2)]TJ
+/TT4 1 Tf
+0 -2.7333 TD
+(        B                          O             *T            )Tj
+0 -2.2 TD
+(        B     F  G                 O              T  U         )Tj
+T*
+(        B  C  F  G        K     M  O     Q        T  U  W     Z)Tj
+T*
+(     A  B  C  F  G  I  J  K  L  M  O  P  Q  R  S  T  U  W  X  Z)Tj
+0 -1.1 TD
+(     4  3  1  8  6  7  0  2  9  0  8  4  6  3  5  6  3  4  2  0)Tj
+0 -2.2 TD
+(rFind1\(@, K\) is called by containsKey or get or put.)Tj
+ET
+endstream
+endobj
+10 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+12 0 obj
+<<
+/Length 593
+>>
+stream
+BT
+/TT2 1 Tf
+10 0 0 10 43 756.3333 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+[(rFind.txt)-4500(Thu Mar 19 14:43:48 2020)-4500(3)]TJ
+/TT4 1 Tf
+0 -2.7333 TD
+(       *B                          O              T            )Tj
+0 -2.2 TD
+(        B     F  G                 O              T  U         )Tj
+T*
+(        B  C  F  G        K     M  O     Q        T  U  W     Z)Tj
+T*
+(     A  B  C  F  G  I  J  K  L  M  O  P  Q  R  S  T  U  W  X  Z)Tj
+0 -1.1 TD
+(     4  3  1  8  6  7  0  2  9  0  8  4  6  3  5  6  3  4  2  0)Tj
+0 -2.2 TD
+(rFind1\(*, K\) first calls find\(*, K\) on the current list and gets B.)Tj
+ET
+endstream
+endobj
+13 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+15 0 obj
+<<
+/Length 606
+>>
+stream
+BT
+/TT2 1 Tf
+10 0 0 10 43 756.3333 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+[(rFind.txt)-4500(Thu Mar 19 14:43:48 2020)-4500(4)]TJ
+/TT4 1 Tf
+0 -2.7333 TD
+(        B                          O              T            )Tj
+0 -2.2 TD
+(       *B     F  G                 O              T  U         )Tj
+T*
+(        B  C  F  G        K     M  O     Q        T  U  W     Z)Tj
+T*
+(     A  B  C  F  G  I  J  K  L  M  O  P  Q  R  S  T  U  W  X  Z)Tj
+0 -1.1 TD
+(     4  3  1  8  6  7  0  2  9  0  8  4  6  3  5  6  3  4  2  0)Tj
+0 -2.2 TD
+(rFind1\(*, K\) then calls rFind2\(*, K\) recursively on the value \(getEntry\) of B.)Tj
+ET
+endstream
+endobj
+16 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+18 0 obj
+<<
+/Length 590
+>>
+stream
+BT
+/TT2 1 Tf
+10 0 0 10 43 756.3333 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+[(rFind.txt)-4500(Thu Mar 19 14:43:48 2020)-4500(5)]TJ
+/TT4 1 Tf
+0 -2.7333 TD
+(        B                          O              T            )Tj
+0 -2.2 TD
+(        B     F  G                *O              T  U         )Tj
+T*
+(        B  C  F  G        K     M  O     Q        T  U  W     Z)Tj
+T*
+(     A  B  C  F  G  I  J  K  L  M  O  P  Q  R  S  T  U  W  X  Z)Tj
+0 -1.1 TD
+(     4  3  1  8  6  7  0  2  9  0  8  4  6  3  5  6  3  4  2  0)Tj
+0 -2.2 TD
+(rFind2\(*, K\) \(the recursive call\) calls find\(*, K\) and gets O.)Tj
+ET
+endstream
+endobj
+19 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+21 0 obj
+<<
+/Length 581
+>>
+stream
+BT
+/TT2 1 Tf
+10 0 0 10 43 756.3333 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+[(rFind.txt)-4500(Thu Mar 19 14:43:48 2020)-4500(6)]TJ
+/TT4 1 Tf
+0 -2.7333 TD
+(        B                          O              T            )Tj
+0 -2.2 TD
+(        B     F  G                 O              T  U         )Tj
+T*
+(        B  C  F  G        K     M *O     Q        T  U  W     Z)Tj
+T*
+(     A  B  C  F  G  I  J  K  L  M  O  P  Q  R  S  T  U  W  X  Z)Tj
+0 -1.1 TD
+(     4  3  1  8  6  7  0  2  9  0  8  4  6  3  5  6  3  4  2  0)Tj
+0 -2.2 TD
+(rFind2\(*, K\) then calls rFind3\(*, K\) on the value of O.)Tj
+ET
+endstream
+endobj
+22 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+24 0 obj
+<<
+/Length 581
+>>
+stream
+BT
+/TT2 1 Tf
+10 0 0 10 43 756.3333 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+[(rFind.txt)-4500(Thu Mar 19 14:43:48 2020)-4500(7)]TJ
+/TT4 1 Tf
+0 -2.7333 TD
+(        B                          O              T            )Tj
+0 -2.2 TD
+(        B     F  G                 O              T  U         )Tj
+T*
+(        B  C  F  G       *K     M  O     Q        T  U  W     Z)Tj
+T*
+(     A  B  C  F  G  I  J  K  L  M  O  P  Q  R  S  T  U  W  X  Z)Tj
+0 -1.1 TD
+(     4  3  1  8  6  7  0  2  9  0  8  4  6  3  5  6  3  4  2  0)Tj
+0 -2.2 TD
+(rFind3\(*, K\) calls find\(*, K\) and gets K on this level.)Tj
+ET
+endstream
+endobj
+25 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+27 0 obj
+<<
+/Length 581
+>>
+stream
+BT
+/TT2 1 Tf
+10 0 0 10 43 756.3333 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+[(rFind.txt)-4500(Thu Mar 19 14:43:48 2020)-4500(8)]TJ
+/TT4 1 Tf
+0 -2.7333 TD
+(        B                          O              T            )Tj
+0 -2.2 TD
+(        B     F  G                 O              T  U         )Tj
+T*
+(        B  C  F  G        K     M  O     Q        T  U  W     Z)Tj
+T*
+(     A  B  C  F  G  I  J *K  L  M  O  P  Q  R  S  T  U  W  X  Z)Tj
+0 -1.1 TD
+(     4  3  1  8  6  7  0  2  9  0  8  4  6  3  5  6  3  4  2  0)Tj
+0 -2.2 TD
+(rFind3\(*, K\) then calls rFind4\(*, K\) on the value of K.)Tj
+ET
+endstream
+endobj
+28 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+30 0 obj
+<<
+/Length 557
+>>
+stream
+BT
+/TT2 1 Tf
+10 0 0 10 43 756.3333 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+[(rFind.txt)-4500(Thu Mar 19 14:43:48 2020)-4500(9)]TJ
+/TT4 1 Tf
+0 -2.7333 TD
+(        B                          O              T            )Tj
+0 -2.2 TD
+(        B     F  G                 O              T  U         )Tj
+T*
+(        B  C  F  G        K     M  O     Q        T  U  W     Z)Tj
+T*
+(     A  B  C  F  G  I  J *K  L  M  O  P  Q  R  S  T  U  W  X  Z)Tj
+0 -1.1 TD
+(     4  3  1  8  6  7  0  2  9  0  8  4  6  3  5  6  3  4  2  0)Tj
+0 -2.2 TD
+(rFind4\(*, K\) calls find4\(*, K\).)Tj
+ET
+endstream
+endobj
+31 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+33 0 obj
+<<
+/Length 781
+>>
+stream
+BT
+/TT2 1 Tf
+10 0 0 10 43 756.3333 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+[(rFind.txt)-4500(Thu Mar 19 14:43:48 2020)-4500(10)]TJ
+/TT4 1 Tf
+0 -2.7333 TD
+(        B                          O              T            )Tj
+0 -2.2 TD
+(        B     F  G                 O              T  U         )Tj
+T*
+(        B  C  F  G        K     M  O     Q        T  U  W     Z)Tj
+T*
+(     A  B  C  F  G  I  J *K  L  M  O  P  Q  R  S  T  U  W  X  Z)Tj
+0 -1.1 TD
+(     4  3  1  8  6  7  0  2  9  0  8  4  6  3  5  6  3  4  2  0)Tj
+0 -2.2 TD
+(rFind4\(*, K\) tests that this entry is not a skip entry \(isSkipEntry\(\) is false\) so)Tj
+0 -1.1 TD
+(it is on the bottom and that it has the key K.  So it returns it.)Tj
+0 -2.2 TD
+(If it was on the bottom but had the WRONG key, it would have returned null.)Tj
+ET
+endstream
+endobj
+34 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+36 0 obj
+<<
+/Length 579
+>>
+stream
+BT
+/TT2 1 Tf
+10 0 0 10 43 756.3333 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+[(rFind.txt)-4500(Thu Mar 19 14:43:48 2020)-4500(11)]TJ
+/TT4 1 Tf
+0 -2.7333 TD
+(        B                          O              T            )Tj
+0 -2.2 TD
+(        B     F  G                 O              T  U         )Tj
+T*
+(        B  C  F  G        K     M  O     Q        T  U  W     Z)Tj
+T*
+(     A  B  C  F  G  I  J *K  L  M  O  P  Q  R  S  T  U  W  X  Z)Tj
+0 -1.1 TD
+(     4  3  1  8  6  7  0  2  9  0  8  4  6  3  5  6  3  4  2  0)Tj
+0 -2.2 TD
+(rFind3 returns the entry returned by its call to rFind4.)Tj
+ET
+endstream
+endobj
+37 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+41 0 obj
+<<
+/Length 579
+>>
+stream
+BT
+/TT2 1 Tf
+10 0 0 10 43 756.3333 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+[(rFind.txt)-4500(Thu Mar 19 14:43:48 2020)-4500(12)]TJ
+/TT4 1 Tf
+0 -2.7333 TD
+(        B                          O              T            )Tj
+0 -2.2 TD
+(        B     F  G                 O              T  U         )Tj
+T*
+(        B  C  F  G        K     M  O     Q        T  U  W     Z)Tj
+T*
+(     A  B  C  F  G  I  J *K  L  M  O  P  Q  R  S  T  U  W  X  Z)Tj
+0 -1.1 TD
+(     4  3  1  8  6  7  0  2  9  0  8  4  6  3  5  6  3  4  2  0)Tj
+0 -2.2 TD
+(rFind2 returns the entry returned by its call to rFind3.)Tj
+ET
+endstream
+endobj
+42 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+44 0 obj
+<<
+/Length 579
+>>
+stream
+BT
+/TT2 1 Tf
+10 0 0 10 43 756.3333 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+[(rFind.txt)-4500(Thu Mar 19 14:43:48 2020)-4500(13)]TJ
+/TT4 1 Tf
+0 -2.7333 TD
+(        B                          O              T            )Tj
+0 -2.2 TD
+(        B     F  G                 O              T  U         )Tj
+T*
+(        B  C  F  G        K     M  O     Q        T  U  W     Z)Tj
+T*
+(     A  B  C  F  G  I  J *K  L  M  O  P  Q  R  S  T  U  W  X  Z)Tj
+0 -1.1 TD
+(     4  3  1  8  6  7  0  2  9  0  8  4  6  3  5  6  3  4  2  0)Tj
+0 -2.2 TD
+(rFind1 returns the entry returned by its call to rFind2.)Tj
+ET
+endstream
+endobj
+45 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+6 0 obj
+<<
+/Type /ExtGState
+/SA false
+/SM 0.02
+/OP false
+/op false
+/OPM 1
+/BG2 /Default
+/UCR2 /Default
+/HT /Default
+/TR2 /Default
+>>
+endobj
+46 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 753
+/CapHeight 562
+/Descent -246
+/Flags 262179
+/FontBBox [-113 -250 749 801]
+/FontName /Courier-Bold
+/ItalicAngle 0
+/StemV 133
+/XHeight 439
+/StemH 84
+>>
+endobj
+47 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 753
+/CapHeight 562
+/Descent -246
+/Flags 35
+/FontBBox [-28 -250 628 805]
+/FontName /Courier
+/ItalicAngle 0
+/StemV 51
+/XHeight 426
+/StemH 51
+>>
+endobj
+4 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 120
+/Widths [600 0 0 0 0 0 0 0 0 0 0 0 0 0 600 0 
+600 600 600 600 600 600 600 600 600 600 600 0 0 0 0 0 
+0 0 0 0 0 0 600 0 0 0 0 0 0 600 0 0 
+0 0 0 0 600 0 0 0 0 0 0 0 0 0 0 0 
+0 600 0 0 600 0 0 0 600 600 0 0 0 0 600 0 
+0 0 600 0 600 600 0 0 600 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Courier-Bold
+/FontDescriptor 46 0 R
+>>
+endobj
+5 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 146
+/Widths [600 0 600 0 0 0 0 0 600 600 600 0 600 0 600 0 
+600 600 600 600 600 600 600 600 600 600 0 0 0 0 0 0 
+600 600 600 600 0 600 600 600 0 600 600 600 600 600 600 600 
+600 600 600 600 600 600 0 600 600 0 600 0 0 0 0 0 
+0 600 600 600 600 600 600 600 600 600 0 600 600 600 600 600 
+600 0 600 600 600 600 600 600 0 600 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 600 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Courier
+/FontDescriptor 47 0 R
+>>
+endobj
+1 0 obj
+<<
+/Type /Page
+/Parent 7 0 R
+/Resources 3 0 R
+/Contents 2 0 R
+>>
+endobj
+8 0 obj
+<<
+/Type /Page
+/Parent 7 0 R
+/Resources 10 0 R
+/Contents 9 0 R
+>>
+endobj
+11 0 obj
+<<
+/Type /Page
+/Parent 7 0 R
+/Resources 13 0 R
+/Contents 12 0 R
+>>
+endobj
+14 0 obj
+<<
+/Type /Page
+/Parent 7 0 R
+/Resources 16 0 R
+/Contents 15 0 R
+>>
+endobj
+17 0 obj
+<<
+/Type /Page
+/Parent 7 0 R
+/Resources 19 0 R
+/Contents 18 0 R
+>>
+endobj
+20 0 obj
+<<
+/Type /Page
+/Parent 7 0 R
+/Resources 22 0 R
+/Contents 21 0 R
+>>
+endobj
+23 0 obj
+<<
+/Type /Page
+/Parent 7 0 R
+/Resources 25 0 R
+/Contents 24 0 R
+>>
+endobj
+26 0 obj
+<<
+/Type /Page
+/Parent 7 0 R
+/Resources 28 0 R
+/Contents 27 0 R
+>>
+endobj
+29 0 obj
+<<
+/Type /Page
+/Parent 7 0 R
+/Resources 31 0 R
+/Contents 30 0 R
+>>
+endobj
+32 0 obj
+<<
+/Type /Page
+/Parent 7 0 R
+/Resources 34 0 R
+/Contents 33 0 R
+>>
+endobj
+35 0 obj
+<<
+/Type /Page
+/Parent 39 0 R
+/Resources 37 0 R
+/Contents 36 0 R
+>>
+endobj
+40 0 obj
+<<
+/Type /Page
+/Parent 39 0 R
+/Resources 42 0 R
+/Contents 41 0 R
+>>
+endobj
+43 0 obj
+<<
+/Type /Page
+/Parent 39 0 R
+/Resources 45 0 R
+/Contents 44 0 R
+>>
+endobj
+48 0 obj
+<<
+/S /D
+>>
+endobj
+49 0 obj
+<<
+/Nums [0 48 0 R ]
+>>
+endobj
+7 0 obj
+<<
+/Type /Pages
+/Kids [1 0 R 8 0 R 11 0 R 14 0 R 17 0 R 20 0 R 23 0 R 26 0 R 29 0 R 32 0 R]
+/Count 10
+/Parent 38 0 R
+>>
+endobj
+39 0 obj
+<<
+/Type /Pages
+/Kids [35 0 R 40 0 R 43 0 R]
+/Count 3
+/Parent 38 0 R
+>>
+endobj
+38 0 obj
+<<
+/Type /Pages
+/Kids [7 0 R 39 0 R ]
+/Count 13
+/MediaBox [0 0 612 792]
+>>
+endobj
+50 0 obj
+<<
+/CreationDate (D:20200320163704-04'00')
+/ModDate (D:20200320163704-04'00')
+/Producer (PSNormalizer.framework)
+>>
+endobj
+51 0 obj
+<<
+/Type /Catalog
+/Pages 38 0 R
+/PageLabels 49 0 R
+>>
+endobj
+xref
+0 52
+0000000000 65535 f 
+0000011769 00000 n 
+0000000016 00000 n 
+0000001119 00000 n 
+0000010848 00000 n 
+0000011246 00000 n 
+0000010315 00000 n 
+0000012914 00000 n 
+0000011849 00000 n 
+0000001225 00000 n 
+0000001852 00000 n 
+0000011930 00000 n 
+0000001959 00000 n 
+0000002604 00000 n 
+0000012013 00000 n 
+0000002711 00000 n 
+0000003369 00000 n 
+0000012096 00000 n 
+0000003476 00000 n 
+0000004118 00000 n 
+0000012179 00000 n 
+0000004225 00000 n 
+0000004858 00000 n 
+0000012262 00000 n 
+0000004965 00000 n 
+0000005598 00000 n 
+0000012345 00000 n 
+0000005705 00000 n 
+0000006338 00000 n 
+0000012428 00000 n 
+0000006445 00000 n 
+0000007054 00000 n 
+0000012511 00000 n 
+0000007161 00000 n 
+0000007994 00000 n 
+0000012594 00000 n 
+0000008101 00000 n 
+0000008732 00000 n 
+0000013137 00000 n 
+0000013049 00000 n 
+0000012678 00000 n 
+0000008839 00000 n 
+0000009470 00000 n 
+0000012762 00000 n 
+0000009577 00000 n 
+0000010208 00000 n 
+0000010455 00000 n 
+0000010657 00000 n 
+0000012846 00000 n 
+0000012874 00000 n 
+0000013228 00000 n 
+0000013360 00000 n 
+trailer
+<<
+/Size 52
+/Root 51 0 R
+/Info 50 0 R
+/ID [<b963c1edc2cca0c52dd50fa4f8ac6491><b963c1edc2cca0c52dd50fa4f8ac6491>]
+>>
+startxref
+13430
+%%EOF
+1 0 obj
+<< /Resources 3 0 R /Type /Page /Contents 2 0 R /Rotate 0 /Parent 7 0 R >>
+endobj
+8 0 obj
+<< /Resources 10 0 R /Type /Page /Contents 9 0 R /Rotate 0 /Parent 7 0 R >>
+endobj
+11 0 obj
+<< /Resources 13 0 R /Type /Page /Contents 12 0 R /Rotate 0 /Parent 7 0 R
+>>
+endobj
+14 0 obj
+<< /Resources 16 0 R /Type /Page /Contents 15 0 R /Rotate 0 /Parent 7 0 R
+>>
+endobj
+17 0 obj
+<< /Resources 19 0 R /Type /Page /Contents 18 0 R /Rotate 0 /Parent 7 0 R
+>>
+endobj
+20 0 obj
+<< /Resources 22 0 R /Type /Page /Contents 21 0 R /Rotate 0 /Parent 7 0 R
+>>
+endobj
+23 0 obj
+<< /Resources 25 0 R /Type /Page /Contents 24 0 R /Rotate 0 /Parent 7 0 R
+>>
+endobj
+26 0 obj
+<< /Resources 28 0 R /Type /Page /Contents 27 0 R /Rotate 0 /Parent 7 0 R
+>>
+endobj
+29 0 obj
+<< /Resources 31 0 R /Type /Page /Contents 30 0 R /Rotate 0 /Parent 7 0 R
+>>
+endobj
+32 0 obj
+<< /Resources 34 0 R /Type /Page /Contents 33 0 R /Rotate 0 /Parent 7 0 R
+>>
+endobj
+35 0 obj
+<< /Resources 37 0 R /Type /Page /Contents 36 0 R /Rotate 0 /Parent 39 0 R
+>>
+endobj
+40 0 obj
+<< /Resources 42 0 R /Type /Page /Contents 41 0 R /Rotate 0 /Parent 39 0 R
+>>
+endobj
+43 0 obj
+<< /Resources 45 0 R /Type /Page /Contents 44 0 R /Rotate 0 /Parent 39 0 R
+>>
+endobj
+50 0 obj
+<< /ModDate (D:20200320203812Z00'00') /Producer (macOS Version 10.15.3 \(Build 19D76\) Quartz PDFContext, AppendMode 1.1)
+/CreationDate (D:20200320163704-04'00') >>
+endobj
+xref
+0 2
+0000000000 65535 f 
+0000014626 00000 n 
+8 1
+0000014716 00000 n 
+11 1
+0000014807 00000 n 
+14 1
+0000014900 00000 n 
+17 1
+0000014993 00000 n 
+20 1
+0000015086 00000 n 
+23 1
+0000015179 00000 n 
+26 1
+0000015272 00000 n 
+29 1
+0000015365 00000 n 
+32 1
+0000015458 00000 n 
+35 1
+0000015551 00000 n 
+40 1
+0000015645 00000 n 
+43 1
+0000015739 00000 n 
+50 1
+0000015833 00000 n 
+trailer
+<< /ID [<B963C1EDC2CCA0C52DD50FA4F8AC6491><90EB5FA48454AC6EE97551A5BEA450DA> ] /Root 51 0 R /Size 52 /Prev 13430 /Info 50 0 R >> 
+startxref
+16014
+%%EOF
