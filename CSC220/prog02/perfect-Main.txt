@@ -1,0 +1,68 @@
+	case 1:
+	Enter name
+	? Fred
+Fred is not listed in the directory
+	case 1:
+	Enter name
+	? Victor
+The number for Victor is vjm@cs.miami.edu
+	case 2:
+	Enter name
+	? Victor
+Removed entry with name Victor and number vjm@cs.miami.edu
+	case 2:
+	Enter name
+	? Victor
+Victor is not listed in the directory
+	case 0:
+	Enter name
+	? Victor
+	Enter number
+	? 
+Victor was added to the directory
+New number: 
+	case 0:
+	Enter name
+	? Fred
+	Enter number
+	? fred
+Fred was added to the directory
+New number: fred
+	case 0:
+	Enter name
+	? Fred
+	Enter number
+	? 777
+Number for Fred was changed
+Old number: fred
+New number: 777
+	case 0:
+	Enter name
+	? Victor
+	Enter number
+	? null
+	case 1:
+	Enter name
+	? null
+	case 1:
+	Enter name
+	? 
+	case 2:
+	Enter name
+	? null
+	case 2:
+	Enter name
+	? 
+	case 0:
+	Enter name
+	? null
+	case 0:
+	Enter name
+	? 
+	case 4:
+The directory is changed.  I am going to ask you if you want to exit without saving.
+commands: YES NO
+selecting NO
+-3 if it does not do a case 3 (save) before exiting
+	case 3:
+	case 4:

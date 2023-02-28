@@ -1,0 +1,68 @@
+If you are having any problems, draw a diagram for the TA and show him
+or her what you are trying to do.  You need to figure out as much for
+yourself as possible.
+
+0. I put prog04 into your src (Box) folder.  In Eclipse, copy and
+pasted Main.java from prog02 into prog04.  It should automatically put
+
+package prog04;
+
+at the top of Main.java, but if it doesn't, fix it.  After that, add the lines
+
+import prog02.UserInterface;
+import prog02.GUI;
+import prog02.ConsoleUI;
+import prog02.PhoneDirectory;
+
+Change the initialization of pd in main to
+
+		PhoneDirectory pd = new DLLBasedPD();
+
+
+1. Read DLLBasedPD.java up to save().  In save(), fill in the missing
+   parts of the output loop.
+
+
+2. In add(), add the new entry to the end of the list.
+   Test your program by modifying and running Main.  Add a new entry
+   and make sure it appears in csc220.txt.
+
+   When you think you have it right, run TestDLLBasedPD.javat.  find
+   and remove will fail because you have not done them yet.
+
+
+3. Finish find().  Test.
+
+
+HOMEWORK
+
+4. Finish removeEntry().  Remember: if the name is not there, then
+   find will return null or an entry with a different name.  Test.
+
+
+5. Change Main to use SortedDLLPD.  In Eclipse, create a SortedDLLPD
+   class in package prog04 that extends DLLBasedPD.  Copy the
+   following methods AND THEIR JAVADOC to SortedDLLPD: add and find.
+
+
+6. Modify add to pay attention to the value of previousORnext.
+   If it is null, adding is easy.
+
+   If it is not null, you have to do a comparison to determine if
+   previousORnext is previous or next.  Set previous or next to
+   previousORnext and set next or previous using the getNext() or
+   getPrevious method of DLLEntry.
+
+   Add newEntry to the list.  Be careful: there are special cases if
+   previous or next is null meaning it should be added first or last.
+
+   Test using TestSortedDLLPD.java.  find will fail because you have
+   not done it yet.
+
+ 
+7. Modify find so it returns the entry just before or just after the
+   name if the name isn't there.  Test.
+
+ 
+8. Copy and paste TestUI from prog02.  Fix any mistakes you still have
+   in Main.

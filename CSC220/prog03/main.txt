@@ -1,0 +1,238 @@
+jhud220        Jeffrey Hudak
+UI 0:ExponentialFib
+UI 1:LinearFib
+UI 2:LogFib
+UI 3:ConstantFib
+UI 4:MysteryFib
+UI 5:Exit
+UI command 0
+doExperiments prog03.ExponentialFib@2aaf7cc2
+UI 	Enter n
+UI 	? 
+UI  is not an integer
+UI 	Enter n
+UI 	? abc
+UI abc is not an integer
+UI 	Enter n
+UI 	? 10
+UI fib(10) = 55.0 in 0.27967005530577327 microseconds.
+UI 	Enter n
+UI 	? 10
+UI Estimated running time is: 0.27967005530577327 microseconds.
+UI fib(10) = 55.0 in 0.23896898800421323 microseconds. 17.031945291931535% error.
+UI 	Enter n
+UI 	? 10
+UI Estimated running time is: 0.23896898800421323 microseconds.
+UI fib(10) = 55.0 in 0.2439923626761365 microseconds. -2.0588245536976277% error.
+UI 	Enter n
+UI 	? 20
+UI Estimated running time is: 30.009076800284557 microseconds.
+UI fib(20) = 6765.0 in 27.404583553588928 microseconds. 9.503859971462848% error.
+UI 	Enter n
+UI 	? 30
+UI Estimated running time is: 3370.5409608704044 microseconds.
+UI fib(30) = 832040.0 in 3399.3766281588446 microseconds. -0.8482633859860952% error.
+UI 	Enter n
+UI 	? 40
+UI Estimated running time is: 418095.6862281671 microseconds.
+UI fib(40) = 1.02334155E8 in 411435.0055 microseconds. 1.6188901379630087% error.
+UI 	Enter n
+UI 	? null
+UI 0:ExponentialFib
+UI 1:LinearFib
+UI 2:LogFib
+UI 3:ConstantFib
+UI 4:MysteryFib
+UI 5:Exit
+UI command 1
+doExperiments prog03.LinearFib@2ed94a8b
+UI 	Enter n
+UI 	? 100
+UI fib(100) = 3.54224848179262E20 in 0.19357345083998898 microseconds.
+UI 	Enter n
+UI 	? 100
+UI Estimated running time is: 0.19357345083998898 microseconds.
+UI fib(100) = 3.54224848179262E20 in 0.053298111599524294 microseconds. 263.1900737768666% error.
+UI 	Enter n
+UI 	? 100
+UI Estimated running time is: 0.05329811159952429 microseconds.
+UI fib(100) = 3.54224848179262E20 in 0.05262721146712385 microseconds. 1.2748160385042449% error.
+UI 	Enter n
+UI 	? 200
+UI Estimated running time is: 0.1052544229342477 microseconds.
+UI fib(200) = 2.8057117299251016E41 in 0.16664787733475847 microseconds. -36.84022585969397% error.
+UI 	Enter n
+UI 	? 400
+UI Estimated running time is: 0.33329575466951694 microseconds.
+UI fib(400) = 1.760236806450138E83 in 0.40896047394169166 microseconds. -18.501719382045405% error.
+UI 	Enter n
+UI 	? 800
+UI Estimated running time is: 0.8179209478833833 microseconds.
+UI fib(800) = 6.928308186422468E166 in 0.881641387101881 microseconds. -7.2274782185485416% error.
+UI 	Enter n
+UI 	? null
+UI 0:ExponentialFib
+UI 1:LinearFib
+UI 2:LogFib
+UI 3:ConstantFib
+UI 4:MysteryFib
+UI 5:Exit
+UI command 2
+doExperiments prog03.LogFib@dfd3711
+UI 	Enter n
+UI 	? 100
+UI fib(100) = 3.5422484817926226E20 in 0.09429397964578377 microseconds.
+UI 	Enter n
+UI 	? 100
+UI Estimated running time is: 0.09429397964578377 microseconds.
+UI fib(100) = 3.5422484817926226E20 in 0.047055233488636765 microseconds. 100.38999417260264% error.
+UI 	Enter n
+UI 	? 100
+UI Estimated running time is: 0.04705523348863677 microseconds.
+UI fib(100) = 3.5422484817926226E20 in 0.036391427941824595 microseconds. 29.303069843423994% error.
+UI 	Enter n
+UI 	? 1000
+UI Estimated running time is: 0.05458714191273688 microseconds.
+UI fib(1000) = 4.3466557686937765E208 in 0.046502234910357584 microseconds. 17.386061160209994% error.
+UI 	Enter n
+UI 	? 10000
+UI Estimated running time is: 0.06200297988047678 microseconds.
+UI fib(10000) = Infinity in 0.06009162558482746 microseconds. 3.1807332170623113% error.
+UI 	Enter n
+UI 	? 100000
+UI Estimated running time is: 0.07511453198103432 microseconds.
+UI fib(100000) = Infinity in 0.12428761732596548 microseconds. -39.563945631016765% error.
+UI 	Enter n
+UI 	? null
+doExperiments prog03.ConstantFib@26ba2a48
+UI 	Enter n
+ERROR (-5 points):  missing break.
+UI 0:ExponentialFib
+UI 1:LinearFib
+UI 2:LogFib
+UI 3:ConstantFib
+UI 4:MysteryFib
+UI 5:Exit
+UI command 3
+doExperiments prog03.ConstantFib@2ef9b8bc
+UI 	Enter n
+UI 	? 100
+UI fib(100) = 3.542248481792631E20 in 0.14580991932789156 microseconds.
+UI 	Enter n
+UI 	? 100
+UI Estimated running time is: 0.14580991932789156 microseconds.
+UI fib(100) = 3.542248481792631E20 in 0.05384090883761364 microseconds. 170.81622965849292% error.
+UI 	Enter n
+UI 	? 100
+UI Estimated running time is: 0.05384090883761364 microseconds.
+UI fib(100) = 3.542248481792631E20 in 0.05458146322443897 microseconds. -1.356787346979273% error.
+UI 	Enter n
+UI 	? 1000
+UI Estimated running time is: 0.08187219483665845 microseconds.
+UI fib(1000) = 4.3466557686938915E208 in 0.0671320403754644 microseconds. 21.956958821381686% error.
+UI 	Enter n
+UI 	? 10000
+UI Estimated running time is: 0.08950938716728588 microseconds.
+UI fib(10000) = Infinity in 0.056036201273764935 microseconds. 59.73493051391483% error.
+UI 	Enter n
+UI 	? 100000
+UI Estimated running time is: 0.07004525159220616 microseconds.
+UI fib(100000) = Infinity in 0.04916290601255591 microseconds. 42.47581616578367% error.
+UI 	Enter n
+UI 	? null
+UI 0:ExponentialFib
+UI 1:LinearFib
+UI 2:LogFib
+UI 3:ConstantFib
+UI 4:MysteryFib
+UI 5:Exit
+UI command 4
+doExperiments prog03.MysteryFib@1e67b872
+UI 	Enter n
+UI 	? 100
+UI fib(100) = 3.54224848179262E20 in 1.2198043101233298 microseconds.
+UI 	Enter n
+UI 	? 100
+UI Estimated running time is: 1.2198043101233298 microseconds.
+UI fib(100) = 3.54224848179262E20 in 0.6711173732144389 microseconds. 81.75722441528445% error.
+UI 	Enter n
+UI 	? 100
+UI Estimated running time is: 0.6711173732144389 microseconds.
+UI fib(100) = 3.54224848179262E20 in 0.6060494792394402 microseconds. 10.736399618172335% error.
+UI 	Enter n
+UI 	? 200
+UI Estimated running time is: 4.8003412001085365E20 microseconds.
+UI Estimated time is more than 1 hr.
+I will ask you if you really want to run it next.
+UI 0:Yes
+UI 1:No
+UI command 1
+UI 	Enter n
+UI 	? 500
+UI Estimated running time is: 2.3854162991055964E83 microseconds.
+UI Estimated time is more than 1 hr.
+I will ask you if you really want to run it next.
+UI 0:Yes
+UI 1:No
+UI command 1
+UI 	Enter n
+UI 	? 1000
+UI Estimated running time is: 7.436769268419316E187 microseconds.
+UI Estimated time is more than 1 hr.
+I will ask you if you really want to run it next.
+UI 0:Yes
+UI 1:No
+UI command 1
+UI 	Enter n
+UI 	? null
+UI 0:ExponentialFib
+UI 1:LinearFib
+UI 2:LogFib
+UI 3:ConstantFib
+UI 4:MysteryFib
+UI 5:Exit
+UI command 0
+doExperiments prog03.ExponentialFib@60addb54
+UI 	Enter n
+UI 	? 10
+UI fib(10) = 55.0 in 0.34751824584331664 microseconds.
+UI 	Enter n
+UI 	? 20
+UI Estimated running time is: 42.74191870036033 microseconds.
+UI fib(20) = 6765.0 in 41.50989500484966 microseconds. 2.9680241189883287% error.
+UI 	Enter n
+UI 	? 30
+UI Estimated running time is: 5105.379584465633 microseconds.
+UI fib(30) = 832040.0 in 5011.123665 microseconds. 1.8809338137863192% error.
+UI 	Enter n
+UI 	? 40
+UI Estimated running time is: 616327.467258942 microseconds.
+UI fib(40) = 1.02334155E8 in 619106.692 microseconds. -0.4489088515712692% error.
+UI 	Enter n
+UI 	? 100
+UI Estimated running time is: 2.14300859747623373E18 microseconds.
+UI Estimated time is more than 1 hr.
+I will ask you if you really want to run it next.
+UI 0:Yes
+UI 1:No
+UI command 1
+UI 	Enter n
+UI 	? null
+UI 0:ExponentialFib
+UI 1:LinearFib
+UI 2:LogFib
+UI 3:ConstantFib
+UI 4:MysteryFib
+UI 5:Exit
+UI command 5
+
+A 10/10	handles bad inputs
+B 10/10	correctly calculates percentages
+C 10/10	ExponentialFib accuracy
+D 10/10	LinearFib accuracy
+E 10/10	LogFib accuracy
+F 10/10	ConstantFib accuracy
+G 0/10	MysteryFib accuracy (Did not override O().)
+H  5/5	Ask if I want to run fib(100).
+
+SCORE: 65

@@ -1,0 +1,85 @@
+jhud220        Jeffrey Hudak
+	case 1:
+	Enter name
+	? Fred
+Name does not exist in the directory.
+	case 1:
+	Enter name
+	? Victor
+Victor has number vjm@cs.miami.edu
+	case 2:
+	Enter name
+	? Victor
+Victor, with number vjm@cs.miami.edu, has been removed from the directory.
+	case 2:
+	Enter name
+	? Victor
+Name does not exist in the directory.
+	case 0:
+	Enter name:
+	? Victor
+	Enter their number or email:
+	? 
+Victor was added to the directory.
+New number: 
+	case 0:
+	Enter name:
+	? Fred
+	Enter their number or email:
+	? fred
+Fred was added to the directory.
+New number: fred
+	case 0:
+	Enter name:
+	? Fred
+	Enter their number or email:
+	? 777
+Number for Fred was changed.
+Old number: fred
+New number: 777
+	case 0:
+	Enter name:
+	? Victor
+	Enter their number or email:
+	? null
+Add / change was cancelled.
+Returning to menu...
+	case 1:
+	Enter name
+	? null
+No name was entered.
+Returning to menu...
+	case 1:
+	Enter name
+	? 
+No name was entered.
+Returning to menu...
+	case 2:
+	Enter name
+	? null
+No name was entered.
+Returning to menu...
+	case 2:
+	Enter name
+	? 
+No name was entered.
+Returning to menu...
+	case 0:
+	Enter name:
+	? null
+No name was entered.
+Returning to menu...
+	case 0:
+	Enter name:
+	? 
+No name was entered.
+Returning to menu...
+	case 4:
+The directory is not saved. Are you sure you want to quit without saving?
+                       Answer yes or no on the next prompt.
+commands: Yes No
+selecting No
+-3 if it does not do a case 3 (save) before exiting
+	case 3:
+	case 4:
+SCORE: 15

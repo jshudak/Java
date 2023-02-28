@@ -1,0 +1,118 @@
+jhud220        Jeffrey Hudak
+list is empty and last is null
+Calling add(null, Ann:123)
+list is Ann:123, and last is Ann:123
+
+list is Ian:412, and last is Ian:412
+Calling add(Ian:412, Ann:123)
+list is Ann:123, Ian:412, and last is Ian:412
+
+list is Ian:412, and last is Ian:412
+Calling add(Ian:412, Zoe:321)
+list is Ian:412, Zoe:321, and last is Zoe:321
+
+list is Sue:555, Ian:412, and last is Ian:412
+Calling add(Sue:555, Ann:123)
+list is Ann:123, Sue:555, Ian:412, and last is Ian:412
+
+list is Sue:555, Ian:412, and last is Ian:412
+Calling add(Sue:555, Zoe:321)
+list is Sue:555, Zoe:321, Ian:412, and last is Ian:412
+
+list is Sue:555, Ian:412, and last is Ian:412
+Calling add(Ian:412, Ann:321)
+list is Sue:555, Ann:321, Ian:412, and last is Ian:412
+
+list is Sue:555, Ian:412, and last is Ian:412
+Calling add(Ian:412, Zoe:606)
+list is Sue:555, Ian:412, Zoe:606, and last is Zoe:606
+
+list is Sue:555, Moe:848, Ian:412, and last is Ian:412
+Calling add(Sue:555, Ann:321)
+list is Ann:321, Sue:555, Moe:848, Ian:412, and last is Ian:412
+
+list is Sue:555, Moe:848, Ian:412, and last is Ian:412
+Calling add(Sue:555, Zoe:606)
+list is Sue:555, Zoe:606, Moe:848, Ian:412, and last is Ian:412
+
+list is Sue:555, Moe:848, Ian:412, and last is Ian:412
+Calling add(Moe:848, Ann:321)
+list is Sue:555, Ann:321, Moe:848, Ian:412, and last is Ian:412
+
+list is Sue:555, Moe:848, Ian:412, and last is Ian:412
+Calling add(Moe:848, Zoe:606)
+list is Sue:555, Moe:848, Zoe:606, Ian:412, and last is Ian:412
+
+list is Sue:555, Moe:848, Ian:412, and last is Ian:412
+Calling add(Ian:412, Ann:321)
+list is Sue:555, Moe:848, Ann:321, Ian:412, and last is Ian:412
+
+list is Sue:555, Moe:848, Ian:412, and last is Ian:412
+Calling add(Ian:412, Zoe:606)
+list is Sue:555, Moe:848, Ian:412, Zoe:606, and last is Zoe:606
+
+list is empty and last is null
+find(Bob) returns 
+null
+
+list is Bob:555, and last is Bob:555
+find(Ann) returns 
+Bob:555
+
+list is Bob:555, and last is Bob:555
+find(Bob) returns 
+Bob:555
+
+list is Bob:555, and last is Bob:555
+find(Eve) returns 
+Bob:555
+
+list is Bob:555, Ian:412, and last is Ian:412
+find(Ann) returns 
+Bob:555
+
+list is Bob:555, Ian:412, and last is Ian:412
+find(Bob) returns 
+Bob:555
+
+list is Bob:555, Ian:412, and last is Ian:412
+find(Eve) returns 
+Ian:412
+
+list is Bob:555, Ian:412, and last is Ian:412
+find(Ian) returns 
+Ian:412
+
+list is Bob:555, Ian:412, and last is Ian:412
+find(Moe) returns 
+Ian:412
+
+list is Bob:555, Ian:412, Sue:616, and last is Sue:616
+find(Ann) returns 
+Bob:555
+
+list is Bob:555, Ian:412, Sue:616, and last is Sue:616
+find(Bob) returns 
+Bob:555
+
+list is Bob:555, Ian:412, Sue:616, and last is Sue:616
+find(Eve) returns 
+Ian:412
+
+list is Bob:555, Ian:412, Sue:616, and last is Sue:616
+find(Ian) returns 
+Ian:412
+
+list is Bob:555, Ian:412, Sue:616, and last is Sue:616
+find(Moe) returns 
+Sue:616
+
+list is Bob:555, Ian:412, Sue:616, and last is Sue:616
+find(Sue) returns 
+Sue:616
+
+list is Bob:555, Ian:412, Sue:616, and last is Sue:616
+find(Zoe) returns 
+Sue:616
+
+SCORE: 40

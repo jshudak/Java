@@ -1,0 +1,135 @@
+jhud220        Jeffrey Hudak
+list is empty and last is null
+Calling add(null, Bob:555)
+list is Bob:555, and last is Bob:555
+
+list is Ian:412, and last is Ian:412
+Calling add(Ian:412, Bob:555)
+list is Ian:412, Bob:555, and last is Bob:555
+
+list is Ian:412, and last is Ian:412
+Calling add(Ian:412, Vic:777)
+list is Ian:412, Vic:777, and last is Vic:777
+
+list is Bob:555, Ian:412, and last is Ian:412
+Calling add(Bob:555, Ann:123)
+list is Bob:555, Ian:412, Ann:123, and last is Ann:123
+
+list is Bob:555, Ian:412, and last is Ian:412
+Calling add(Bob:555, Eve:321)
+list is Bob:555, Ian:412, Eve:321, and last is Eve:321
+
+list is Bob:555, Ian:412, and last is Ian:412
+Calling add(Ian:412, Eve:321)
+list is Bob:555, Ian:412, Eve:321, and last is Eve:321
+
+list is Bob:555, Ian:412, and last is Ian:412
+Calling add(Ian:412, Zoe:606)
+list is Bob:555, Ian:412, Zoe:606, and last is Zoe:606
+
+list is empty and last is null
+find(Bob) returns 
+null
+
+list is Bob:555, and last is Bob:555
+find(Ann) returns 
+Bob:555
+
+list is Bob:555, and last is Bob:555
+find(Bob) returns 
+Bob:555
+
+list is Bob:555, and last is Bob:555
+find(Eve) returns 
+Bob:555
+
+list is Ian:412, Bob:555, and last is Bob:555
+find(Ann) returns 
+Bob:555
+
+list is Ian:412, Bob:555, and last is Bob:555
+find(Ian) returns 
+Ian:412
+
+list is Ian:412, Bob:555, and last is Bob:555
+find(Moe) returns 
+Bob:555
+
+list is Ian:412, Bob:555, and last is Bob:555
+find(Bob) returns 
+Bob:555
+
+list is Ian:412, Bob:555, and last is Bob:555
+find(Zoe) returns 
+Bob:555
+
+list is Ian:412, Ann:123, Bob:555, and last is Bob:555
+find(Abe) returns 
+Bob:555
+
+list is Ian:412, Ann:123, Bob:555, and last is Bob:555
+find(Ian) returns 
+Ian:412
+
+list is Ian:412, Ann:123, Bob:555, and last is Bob:555
+find(Joe) returns 
+Bob:555
+
+list is Ian:412, Ann:123, Bob:555, and last is Bob:555
+find(Ann) returns 
+Ann:123
+
+list is Ian:412, Ann:123, Bob:555, and last is Bob:555
+find(Bab) returns 
+Bob:555
+
+list is Ian:412, Ann:123, Bob:555, and last is Bob:555
+find(Bob) returns 
+Bob:555
+
+list is Ian:412, Ann:123, Bob:555, and last is Bob:555
+find(Boo) returns 
+Bob:555
+
+list is empty and last is null
+Calling removeEntry(Bob)
+removeEntry returns null
+list is empty and last is null
+
+list is Bob:555, and last is Bob:555
+Calling removeEntry(Bob)
+removeEntry returns 555
+list is empty and last is null
+
+list is Bob:555, and last is Bob:555
+Calling removeEntry(Ann)
+removeEntry returns null
+list is Bob:555, and last is Bob:555
+
+list is Bob:555, Ian:412, and last is Ian:412
+Calling removeEntry(Bob)
+removeEntry returns 555
+list is Ian:412, and last is Ian:412
+
+list is Bob:555, Ian:412, and last is Ian:412
+Calling removeEntry(Ian)
+removeEntry returns 412
+list is Bob:555, and last is Bob:555
+
+list is Bob:555, Ian:412, and last is Ian:412
+Calling removeEntry(Ann)
+removeEntry returns null
+list is Bob:555, Ian:412, and last is Ian:412
+
+list is Ian:412, Ann:123, Bob:555, and last is Bob:555
+Calling removeEntry(Ian)
+removeEntry returns 412
+list is Ann:123, Bob:555, and last is Bob:555
+
+list is Ian:412, Ann:123, Bob:555, and last is Bob:555
+Calling removeEntry(Ann)
+removeEntry returns 123
+list is Ian:412, Ann:123, Bob:555, and last is Bob:555
+removeEntry failed: -20
+LAB SCORE: 20
+HW SCORE: 0
